@@ -37,7 +37,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: 28,
         fontFamily: 'Cabin, sans-serif',
         textAlign: 'center',
-        margin: '8px 0'
+        margin: '10px 0'
     },
     tagline: {
         color: theme.palette.common.white,
