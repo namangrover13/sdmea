@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: 'Cabin, sans-serif',
         alignContent: 'center',
         margin: 0,
-        padding: '5px 10px',
+        padding: '0px 10px',
     },
     navItems: {
         display: 'flex',
@@ -23,15 +23,21 @@ const useStyles = makeStyles((theme) => ({
     navItem: {
         color: theme.palette.primary.text,
         marginLeft: 20,
-        fontSize: 20,
+        fontSize: 18,
         textTransform: 'uppercase',
         cursor: 'pointer',
-        padding:0
+        padding:3,
+        borderRadius:8,
+        '&:hover': {
+            background: theme.palette.common.white,
+            color: theme.palette.primary.main,
+            transition: '0.5s',
+        }
     },
     logo: {
         background: theme.palette.primary.text,
-        height:60,
-        width: 60,
+        height:57,
+        width: 57,
         borderRadius: '50%',
         margin: 'auto',
         cursor: 'pointer'
