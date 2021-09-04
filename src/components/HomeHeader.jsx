@@ -11,6 +11,9 @@ const useStyles = makeStyles((theme) => ({
         alignContent: 'center',
         margin: 0,
         padding: '0px 10px',
+        position: 'sticky',
+        top: 0,
+        zIndex: 20
     },
     navItems: {
         display: 'flex',
