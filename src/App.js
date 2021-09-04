@@ -8,9 +8,12 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Login from './pages/Login';
 import './App.css';
+import { ThemeProvider } from "@material-ui/core";
+import theme from "./constants/theme";
 
 function App() {
   return (
+    <ThemeProvider theme={theme}>
       <Router>
       <Switch>
           <Route path="/" exact>
@@ -22,8 +25,12 @@ function App() {
           <Route path="/login">
               <Login />
           </Route>
+          <Route path="/signup">
+              <Login />
+          </Route>
       </Switch>
       </Router>
+    </ThemeProvider>
   );
 }
 
