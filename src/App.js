@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
-import Login from './pages/Login';
+import Auth from './pages/Auth';
 import './App.css';
 import { ThemeProvider } from "@material-ui/core";
 import theme from "./constants/theme";
@@ -22,11 +22,11 @@ function App() {
           <Route path="/dashboard">
               <Dashboard />
           </Route>
-          <Route path="/login">
-              <Login />
+          <Route path="/auth">
+              <Auth />
           </Route>
-          <Route path="/signup">
-              <Login />
+          <Route path="/auth">
+              <Auth />
           </Route>
       </Switch>
       </Router>

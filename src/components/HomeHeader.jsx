@@ -1,12 +1,13 @@
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import React from 'react'
-
+import {useHistory} from 'react-router-dom'
+import './../styles/Global.css'
 const useStyles = makeStyles((theme) => ({
     container: {
         display: 'flex',
         justifyContent: 'space-between',
-        background: theme.palette.primary.main,
+        background: 'white',
         fontFamily: 'Cabin, sans-serif',
         alignContent: 'center',
         margin: 0,
@@ -14,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
         position: 'sticky',
         top: 0,
         zIndex: 20
+
     },
     navItems: {
         display: 'flex',
@@ -21,10 +23,12 @@ const useStyles = makeStyles((theme) => ({
         alignContent: 'center',
         padding: 0,
         margin:0,
-        marginLeft:10
+        marginLeft:10,
+
     },
     navItem: {
-        color: theme.palette.primary.text,
+        color:'blue',
+        fontWeight:'700',
         marginLeft: 20,
         fontSize: 18,
         textTransform: 'uppercase',
@@ -68,8 +72,10 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 const HomeHeader = () => {
+  let history =  useHistory()
     const classes = useStyles();
     return (
+        <div className={"global-card-shadow"}>
         <div className={classes.container}>
             <div className={classes.navItems}>
                 <p className={classes.navItem}>One</p>
@@ -80,10 +86,11 @@ const HomeHeader = () => {
                 <p className={classes.logoTxt}>SDMEA</p>
             </div>
             <div className={classes.navBtns}>
-                <Button className={classes.btn}>Signup</Button>
-                <Button className={classes.btn}>Login</Button>
+                <Button className={classes.btn} onClick={()=>history.push("/auth")}>Signup</Button>
+                <Button className={classes.btn} onClick={()=>history.push("/auth")}>Login</Button>
             </div>
         </div>
+            </div>
     )
 }
 
