@@ -7,7 +7,7 @@ function Index(props) {
    React.useEffect(()=>{
        setheight(props.height);
        setwith(props.width);
-   })
+   },)
     return (
         <>
         <button className={"global-button"} style={{height,width}}>{props.text}</button>
