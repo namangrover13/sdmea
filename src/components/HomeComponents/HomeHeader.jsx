@@ -2,7 +2,7 @@ import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import React from 'react'
 import {useHistory} from 'react-router-dom'
-import './../styles/Global.css'
+// import '../styles/Global.css'
 const useStyles = makeStyles((theme) => ({
     container: {
         display: 'flex',

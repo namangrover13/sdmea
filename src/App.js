@@ -25,9 +25,6 @@ function App() {
           <Route path="/auth">
               <Auth />
           </Route>
-          <Route path="/auth">
-              <Auth />
-          </Route>
       </Switch>
       </Router>
     </ThemeProvider>
