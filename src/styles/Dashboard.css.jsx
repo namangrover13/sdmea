@@ -7,7 +7,7 @@ export const useStyles = makeStyles((theme) => ({
         height: '100%'
     },
     header: {
-        height: '15%',
+        height: 50,
         backgroundColor: theme.palette.primary.main,
         color: theme.palette.common.white,
         textAlign: 'center'
