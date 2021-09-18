@@ -1,0 +1,71 @@
+.views-outer{
+    min-height:90vh;
+
+    text-align: center;
+}
+.grid-outer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+justify-content: space-between;
+}
+.grid-childs{
+    min-height: 5vh;
+    padding:10px 10px;
+
+}
+.input-view{
+    border: 1px solid #102A43;
+    font-size:1vw;
+    font-weight:800;
+}
+.input-view::placeholder{
+    font-size:1vw;
+    color:black;
+    font-weight:800;
+
+}
+.input-view:focus::placeholder{
+    color:transparent;
+}
+
+.child-grid{
+    width:50%;
+ margin:0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.roll-text{
+    font-weight: 700;
+}
+.profile-card-outer{
+    border-radius:5px;
+    width:70%;
+    margin:0 auto;
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 2fr;
+grid-template-rows: 2fr;
+    margin-bottom:30px;
+
+}
+.image-div{
+  grid-row: 1/5;
+    justify-items: center;
+}
+
+.profile-card-inner{
+    min-height: 10vh;
+}
+.detail{
+    text-align: left;
+    padding-left:50px;
+    font-size:2vw;
+font-weight:700;
+display: flex;
+
+}
+.detail-child{
+width:60%;
+}
+
