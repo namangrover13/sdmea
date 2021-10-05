@@ -2,9 +2,13 @@ import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
 import addStudentReducer from './reducers/students/add-student';
+import getAllStudentsReducer from './reducers/students/get-all-students';
+import updateStudentReducer from './reducers/students/update-student';
 
 const rootReducer = combineReducers({
-    addStudentReducer
+    addStudentReducer,
+    updateStudentReducer,
+    getAllStudentsReducer
 })
 
 const composeEnhancers =

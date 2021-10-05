@@ -1,4 +1,4 @@
-import * as actionTypes from '../../index';
+import * as actionTypes from '../index';
 import API from '../../../api';
 // import { getStudent } from './get-all-students';
 
