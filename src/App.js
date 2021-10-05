@@ -11,9 +11,7 @@ import './App.css';
 import { ThemeProvider } from "@material-ui/core";
 import theme from "./constants/theme";
 import { Provider } from "react-redux";
-import { ConfigureStore } from "./store/configureStore";
-
-const store= ConfigureStore();
+import store from "./store";
 
 function App() {
   return (
