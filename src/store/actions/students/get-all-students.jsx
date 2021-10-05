@@ -41,7 +41,7 @@ const getAllStudentsSuccess = (data) => {
 
 const getAllStudentsFailure = (err) => {
   return {
-    type: actionTypes.GET_ALL_STUDENT_FAIL,
+    type: actionTypes.GET_ALL_STUDENTS_FAIL,
     data: err,
   };
 };

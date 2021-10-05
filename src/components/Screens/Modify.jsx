@@ -4,6 +4,8 @@ import { withRouter } from 'react-router';
 import { useStyles } from './css/Modify.css';
 import { Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField } from '@material-ui/core';
 import Popup from '../GlobalComponents/Popup';
+import { clearGetAllStudents, getAllStudents } from '../../store/actions/students/get-all-students';
+import { clearUpdateStudent, updateStudent } from '../../store/actions/students/update-student';
 
 const ModifyForm = (props) => {
   const data = props.data
@@ -61,13 +63,21 @@ const ModifyForm = (props) => {
           helperText="Click to change Standard"
         />
       </div>
-      <Button className={props.btnClass} onClick={props.handleClose}>Done</Button>
+      <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '50px'}}>
+        <Button className={props.btnClass} onClick={props.handleClose}>Cancel</Button>
+        <Button className={props.btnClass} onClick={props.handleClose}>Done</Button>
+      </div>
     </div>
   )
 }
 
 const Modify = ({
-  students
+  getAllStudentsData,
+  getAllStudents,
+  clearGetAllStudents,
+  updateStudent,
+  clearUpdateStudent,
+  updateStudentData
 }) => {
   const classes = useStyles();
   const [open, setOpen] = useState(false);
@@ -93,7 +103,7 @@ const Modify = ({
             </TableRow>
           </TableHead>
           <TableBody>
-            {students.map((row) => (
+            {getAllStudentsData.data.map((row) => (
               <TableRow
                 key={row.name}
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -120,10 +130,23 @@ const Modify = ({
   )
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state, ownProps) => {
   return {
-    students: state.students
-  }
-}
+    ...ownProps,
+    getAllStudentsData: state.getAllStudentsReducer,
+    updateStudentData: state.updateStudentReducer,
+  };
+};
+const mapDispatchToProps = (dispatch) => {
+  return {
+    getAllStudents: () => dispatch(getAllStudents()),
+    clearGetAllStudents: () => dispatch(clearGetAllStudents()),
+    updateStudent: (payload) => dispatch(updateStudent(payload)),
+    clearUpdateStudent: () => dispatch(clearUpdateStudent()),
+  };
+};
 
-export default withRouter(connect(mapStateToProps)(Modify));
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(Modify);

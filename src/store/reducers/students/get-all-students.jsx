@@ -1,10 +1,11 @@
+import { STUDENTS } from '../../../constants/data/Students';
 import * as actionTypes from '../../actions';
 
 const initialState = {
   isLoading: true,
   isError: false,
   isDone: false,
-  data: null,
+  data: STUDENTS,
   error: null,
 };
 
