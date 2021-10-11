@@ -10,9 +10,12 @@ import Auth from './pages/Auth';
 import './App.css';
 import { ThemeProvider } from "@material-ui/core";
 import theme from "./constants/theme";
+import { Provider } from "react-redux";
+import store from "./store";
 
 function App() {
   return (
+    <Provider store={store} >
     <ThemeProvider theme={theme}>
       <Router>
       <Switch>
@@ -28,6 +31,7 @@ function App() {
       </Switch>
       </Router>
     </ThemeProvider>
+    </Provider>
   );
 }
 

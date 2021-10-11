@@ -67,7 +67,7 @@ const SidePanel = ({setScreenToRender}) => {
                 aria-labelledby="nested-list-subheader"
                 subheader={
                     <ListSubheader component="div" id="nested-list-subheader">
-                        Select
+                        Go To
                     </ListSubheader>
                 }
                 className={classes.listContainer}

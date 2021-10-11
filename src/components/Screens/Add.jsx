@@ -1,4 +1,6 @@
 import React from 'react'
+import { connect } from 'react-redux';
+import { addStudent, clearAddStudent } from '../../store/actions/students/add-student';
 
 const Add = () => {
     return (
@@ -8,4 +10,20 @@ const Add = () => {
     )
 }
 
-export default Add
+const mapStateToProps = (state, ownProps) => {
+    return {
+      ...ownProps,
+      addedStudentData: state.addStudentReducer,
+    };
+  };
+  const mapDispatchToProps = (dispatch) => {
+    return {
+      addStudent: (payload) => dispatch(addStudent(payload)),
+      clearAddStudent: () => dispatch(clearAddStudent()),
+    };
+  };
+  
+  export default connect(
+    mapStateToProps,
+    mapDispatchToProps,
+  )(Add);
