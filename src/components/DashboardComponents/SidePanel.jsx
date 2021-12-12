@@ -8,43 +8,44 @@ import Predict from '../Screens/Predict';
 import View from '../Screens/View';
 import SettingsScreen from '../Screens/Settings';
 import { useStyles } from './css/SidePanel.css';
+import {imageLogo} from './logo.png';
 
 const OPTIONS = [
     {
         link: '',
-        label: 'Add Student Data',
+        label: 'Add Student',
         value: 'add',
         icon: <Add />,
         jsx: <AddScreen />
     },
     {
         link: '',
-        label: 'Modify Student Data',
+        label: 'View Students',
         value: 'modify',
         icon: <Create />,
         jsx: <Modify />
     },
     {
         link: '',
-        label: 'View',
+        label: 'Analyze',
         value: 'view',
-        icon: <Pageview />,
+        icon: <Poll />,
         jsx: <View />
     },
-    {
-        link: '',
-        label: 'Analyse',
-        value: 'analyse',
-        icon: <Poll />,
-        jsx: <Analyse />
-    },
-    {
-        link: '',
-        label: 'Predict',
-        value: 'predict',
-        icon: <Timeline />,
-        jsx: <Predict />
-    },
+    // {
+    //     link: '',
+    //     label: 'Analyse',
+    //     value: 'analyse',
+    //     icon: <Poll />,
+    //     jsx: <Analyse />
+    // },
+    // {
+    //     link: '',
+    //     label: 'Predict',
+    //     value: 'predict',
+    //     icon: <Timeline />,
+    //     jsx: <Predict />
+    // },
     {
         link: '',
         label: 'Settings',
@@ -59,17 +60,11 @@ const SidePanel = ({setScreenToRender}) => {
     return (
         <div className={classes.root}>
             <div className={classes.logContainer}>
-                <p className={classes.logo}>SDMEA</p>
-            </div>
-            <Divider />
+                <img src='/assets/images/logo.png' style={{height:'100px'}} />
+                 </div>
             <List
                 component="nav"
                 aria-labelledby="nested-list-subheader"
-                subheader={
-                    <ListSubheader component="div" id="nested-list-subheader">
-                        Go To
-                    </ListSubheader>
-                }
                 className={classes.listContainer}
             >
                 {OPTIONS.map((option, index) => (

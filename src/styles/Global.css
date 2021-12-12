@@ -3,14 +3,17 @@
     border:none;
     border-radius:4px;
     color:white;
-font-weight: 700;
+font-weight: 600;
+font-size:larger;
+    height: 5vh;
+    width: 10vw;
 }
 
 .global-input{
     text-align: center;
    border:3px solid #102A43;
     border-radius:7px;
-
+font-size:x-large;
 }
 
 .global-card-shadow{

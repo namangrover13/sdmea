@@ -1,22 +1,25 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './../../styles/Views.css'
 import Button from "./../GlobalComponents/Button/"
-import Input from './../GlobalComponents/Input'
 import ProfileImage from './../ViewsComponent/ProfileImage/ProfileImage'
 import Skeleton from "react-loading-skeleton";
+import {STUDENTS} from '../../constants/data/Students';
 
 const View = () => {
-    const [data, setData] = React.useState()
+    const [data, setData] = useState()
+    const [name, setName] = useState('');
+    const [rawData, setrawData] = useState([])
     React.useEffect(() => {
-        let dummy = {
-            name: 'John Dow',
-            grade: 11,
-            aggscore: 89,
-            contactNo: 909090909
-        }
-        setData(dummy)
-        console.log(data)
+        setrawData(STUDENTS);
     }, [])
+
+
+    function handleClick() {
+        const _name = name;
+        const _newData = rawData.find(data => data.name.toUpperCase() === _name.toUpperCase());
+        if (_newData === undefined) alert('No student with this name');
+        setData(_newData);
+    }
 
     return (
         <div className={"views-outer"}>
@@ -27,14 +30,14 @@ const View = () => {
                         <span>
                         <input
                             className={"global-input input-view"}
-                            style={{height: "5vh", width: "20vw", marginBottom: "-30px"}} text={"Roll"}
-                            placeholder={"1234XXXXXXX"}/>
+                            style={{height: "5vh", width: "20vw", marginBottom: "-30px"}}
+                             onChange={(e) => setName(e.target.value)}/>
                         </span>
                     </div>
 
                 </div>
                 <div className={"grid-childs"}>
-                    <Button height={"5vh"} width={"10vw"} text={"Look for Roll No."}/>
+                    <button className={'global-button'} onClick={() => handleClick()}>Search</button>
                 </div>
                 <div className={"grid-childs profile-card-outer global-card-shadow"}>
 
@@ -50,30 +53,20 @@ const View = () => {
                     </div>
 
                     <div className={"profile-card-inner detail"}>
-
                         <div className={"detail-child"}>Current Grade</div>
-
-                        <div style={{width: "20%"}}>{data ? data.grade : <Skeleton count={1}/>}</div>
-
+                        <div style={{width: "20%"}}>{data ? data.standard : <Skeleton count={1}/>}</div>
                     </div>
-
                     <div className={"profile-card-inner detail"}>
-
-                        <div className={"detail-child"}>Aggregated Score:</div>
-
-                        <div style={{width: "20%"}}>{data ? data.aggscore : <Skeleton count={1}/>}</div>
-
+                        <div className={"detail-child"}>% in 10:</div>
+                        <div style={{width: "20%"}}>{data ? data.tenthPercent : <Skeleton count={1}/>}</div>
                     </div>
-
                     <div className={"profile-card-inner detail"}>
-
-                        <div className={"detail-child"}>Contact No.:</div>
-
-                        <div style={{width: "20%"}}>{data ? data.contactNo : <Skeleton count={1}/>}</div>
-
+                        <div style={{display: 'flex'}}>
+                            {data?.isOptedBio && <div className={'_subjectTag _subBi'}>Science & Biology</div>}
+                            {data?.isOptedMaths &&
+                                <div className={'_subjectTag _subMa'}>Science & Math</div>}
+                        </div>
                     </div>
-
-
                 </div>
                 <div className={"grid-childs child-grid"}>
                     <div>

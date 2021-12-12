@@ -1,6 +1,6 @@
  export const STUDENTS = [
     {
-        id:2001,
+        admNo:2001,
         name: 'Hrithik Ahuja',
         gender: 'M',
         age: 17,
@@ -8,7 +8,12 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null}
+        utOne: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        utTwo: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        utThree: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        utFour: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        halfYearly:{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        finalYearly :{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
     },
     {
         id:2002,

@@ -11,6 +11,9 @@ export const useStyles = makeStyles((theme) => ({
     logo: {
         textAlign: 'center'
     },
+    logContainer:{
+    margin:'0px 0px 60px 0px'
+    },
     listContainer: {
         padding: theme.spacing(0,1)
     }
