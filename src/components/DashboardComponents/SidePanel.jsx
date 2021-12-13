@@ -55,12 +55,12 @@ const OPTIONS = [
     },
 ]
 
-const SidePanel = ({setScreenToRender}) => {
+const SidePanel = ({setScreenToRender, setScreenName}) => {
     const classes = useStyles();
     return (
         <div className={classes.root}>
             <div className={classes.logContainer}>
-                <img src='/assets/images/logo.png' style={{height:'100px'}} />
+                <img src='/assets/images/logo.png' alt="logo" style={{height:'100px'}} />
                  </div>
             <List
                 component="nav"
@@ -69,7 +69,11 @@ const SidePanel = ({setScreenToRender}) => {
             >
                 {OPTIONS.map((option, index) => (
 
-                    <ListItem button key={index} onClick={()=> setScreenToRender(option.jsx)}>
+                    <ListItem button key={index} 
+                    onClick={()=> 
+                    {setScreenToRender(option.jsx)
+                    setScreenName(option.label)}
+                    }>
                         <ListItemIcon>
                             {option.icon}
                         </ListItemIcon>

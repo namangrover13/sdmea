@@ -7,6 +7,7 @@ import HomeDashboard from '../components/Screens/HomeDashboard';
 function Dashboard() {
     const classes = useStyles();
     const [screenToRender, setScreenToRender] = useState(<HomeDashboard />);
+    const [screenName, setScreenName] = useState("Home")
     return (
         <Grid
             container
@@ -16,14 +17,14 @@ function Dashboard() {
                 item
                 lg={2}
             >
-                <SidePanel setScreenToRender={setScreenToRender} />
+                <SidePanel setScreenToRender={setScreenToRender} setScreenName={setScreenName} />
             </Grid>
             <Grid
                 item
                 lg={10}
             >
                <div className={classes.header}>
-                   Header
+                   {screenName}
                </div>
                <div className={classes.screenContent}>
                    {screenToRender}

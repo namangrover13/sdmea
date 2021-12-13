@@ -10,6 +10,10 @@ export const useStyles = makeStyles((theme) => ({
         height: 50,
         backgroundColor: theme.palette.primary.main,
         color: theme.palette.common.white,
-        textAlign: 'center'
+        fontSize: 24,
+        fontFamily: 'Cabin, sans-serif',  
+        padding: 10,
+        textAlign: 'left',
+        textTransform: 'uppercase'
     }
 }))
