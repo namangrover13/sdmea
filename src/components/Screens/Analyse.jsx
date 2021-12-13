@@ -41,7 +41,24 @@ const Analyse = () => {
                 >Search</Button>
             </div>
             <div>
-                {dataToShow && dataToShow.admnNo}
+                {dataToShow && <div className={classes.studentDetailsContainer}>
+                    <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Name: </h2><span className={classes.detail}>{dataToShow.name}</span>
+                    </div>
+                    <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Class: </h2><span className={classes.detail}>{dataToShow.standard}</span>
+                    </div>
+                    <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Age: </h2><span className={classes.detail}>{dataToShow.age}</span>
+                    </div>
+                    <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Gender: </h2><span className={classes.detail}>{dataToShow.gender === 'M' ? "Male" : "Female"}</span>
+                    </div>
+                    <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Percentage in class 10: </h2><span className={classes.detail}>{dataToShow.tenthPercent}%</span>
+                    </div>
+                </div>
+                }
             </div>
         </div>
     )
