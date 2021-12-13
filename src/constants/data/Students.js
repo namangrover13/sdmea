@@ -1,6 +1,6 @@
  export const STUDENTS = [
     {
-        admNo:2001,
+        admnNo:2001,
         name: 'Hrithik Ahuja',
         gender: 'M',
         age: 17,
