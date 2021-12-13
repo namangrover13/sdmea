@@ -25,20 +25,20 @@ const OPTIONS = [
         icon: <Create />,
         jsx: <Modify />
     },
-    {
-        link: '',
-        label: 'Analyze',
-        value: 'view',
-        icon: <Poll />,
-        jsx: <View />
-    },
     // {
     //     link: '',
-    //     label: 'Analyse',
-    //     value: 'analyse',
+    //     label: 'Analyze',
+    //     value: 'view',
     //     icon: <Poll />,
-    //     jsx: <Analyse />
+    //     jsx: <View />
     // },
+    {
+        link: '',
+        label: 'Analyse',
+        value: 'analyse',
+        icon: <Poll />,
+        jsx: <Analyse />
+    },
     // {
     //     link: '',
     //     label: 'Predict',
