@@ -1,6 +1,6 @@
  export const STUDENTS = [
     {
-        admNo:2001,
+        admnNo:2001,
         name: 'Hrithik Ahuja',
         gender: 'M',
         age: 17,
@@ -8,12 +8,14 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        utOne: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        utTwo: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        utThree: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        utFour: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        halfYearly:{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        finalYearly :{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        marks: {
+            utOne: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+            utTwo: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+            utThree: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+            utFour: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+            halfYearly:{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+            finalYearly :{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        }
     },
     {
         id:2002,
