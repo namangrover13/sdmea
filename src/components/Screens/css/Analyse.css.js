@@ -16,14 +16,20 @@ export const useStyles = makeStyles((theme) => ({
         marginTop: 20,
         background: theme.palette.primary.main,
         color: theme.palette.common.white,
-        fontSize: 16
+        fontSize: 16,
+        '&:hover': {
+            background: theme.palette.primary.main,
+            color: theme.palette.common.white,
+            boxShadow: '2px 2px 2px #101928'
+        }
     },
     studentDetailsContainer: {
         width: '50%',
         margin: 'auto',
-        border: '2px solid #101928',
+        background: theme.palette.primary.main,
+        color: theme.palette.common.white,
         borderRadius: 12,
-        padding : 20
+        padding : 20,
     },
     detailContainer: {
         display: 'flex',
@@ -37,5 +43,11 @@ export const useStyles = makeStyles((theme) => ({
     detail: {
         fontSize: 20,
         fontWeight: 700,
+    },
+    chart: {
+        width: '50%',
+        borderRadius:12,
+        border: '2px solid #101928',
+        margin: 20
     }
 }))
