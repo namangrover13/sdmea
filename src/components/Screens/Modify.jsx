@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import {  Tab, Tabs } from '@material-ui/core';
+import { TabContext, TabPanel } from '@mui/lab';
 import { connect } from 'react-redux';
 import { useStyles } from './css/Modify.css';
 import { Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField } from '@material-ui/core';
@@ -6,6 +8,12 @@ import Popup from '../GlobalComponents/Popup';
 import { clearGetAllStudents, getAllStudents } from '../../store/actions/students/get-all-students';
 import { clearUpdateStudent, updateStudent } from '../../store/actions/students/update-student';
 
+function a11yProps(index) {
+  return {
+    id: `vertical-tab-${index}`,
+    'aria-controls': `vertical-tabpanel-${index}`,
+  };
+}
 const ModifyForm = (props) => {
   const data = props.data
   // const handleChange = (event) => {
@@ -81,6 +89,7 @@ const Modify = ({
   const classes = useStyles();
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState();
+  const [value, setValue] = useState('1');
   const handleClick = (row) => {
     setSelected(row)
     setOpen(true)
@@ -88,8 +97,22 @@ const Modify = ({
   const handleClose = () => {
     setOpen(false)
   }
-  return (
-    <div className={classes.root}>
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+  const createStudentsArray = (data, standard) => {
+    const students = [];
+    data.forEach((student)=>{
+      if(student.standard === standard)
+        students.push(student);
+    })
+    return students;
+  }
+  const eleventhStudents = createStudentsArray(getAllStudentsData.data, 'XI')
+  const twelfthStudents = createStudentsArray(getAllStudentsData.data, 'XII')
+  console.log(eleventhStudents);
+  const StudentsTable = ({data}) => {
+    return(
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 300 }} aria-label="simple table">
           <TableHead>
@@ -102,7 +125,7 @@ const Modify = ({
             </TableRow>
           </TableHead>
           <TableBody>
-            {getAllStudentsData.data.map((row) => (
+            {data.map((row) => (
               <TableRow
                 key={row.name}
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -121,6 +144,32 @@ const Modify = ({
           </TableBody>
         </Table>
       </TableContainer>
+    );
+  }
+  return (
+    <div className={classes.root}>
+      <div style={{ bgcolor: 'background.paper', display: "block", height: 'inherit', justifyContent: 'space-between' }}>
+      <TabContext value={value}>
+        <div style={{ borderBottom: 1, borderRight: '0.5px solid #000' }}>
+          <Tabs
+            orientation={"horizontal"}
+            value={value}
+            onChange={handleChange}
+            aria-label="Horizontal tabs example"
+            sx={{ borderRight: 1, borderColor: 'divider' }}
+          >
+            <Tab label="Class 11" value="1" {...a11yProps(1)}/>
+            <Tab label="Class 12" value="2" {...a11yProps(2)} />
+            {/* <Tab style={{fontWeight: 700, fontSize: 18, fontFamily: 'Mulish'}} label="Item Three" value="3" {...a11yProps(3)} /> */}
+          </Tabs>
+        </div>
+        <div style={{width: '80%', }}>
+        <TabPanel value="1"><StudentsTable data={eleventhStudents} /></TabPanel>
+        <TabPanel value="2"><StudentsTable data={twelfthStudents} /></TabPanel>
+        {/* <TabPanel value="3">Item Three</TabPanel> */}
+        </div>
+      </TabContext>
+    </div>
       <Popup open={open} onClose={handleClose} heading={"Edit Form"} >
               <ModifyForm data={selected} handleClose={handleClose} btnClass={classes.btnClass} />
       </Popup>
