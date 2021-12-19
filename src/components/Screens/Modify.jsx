@@ -27,8 +27,8 @@ const ModifyForm = (props) => {
           label="Name"
           defaultValue={data.name}
           value={data.name}
-          // onChange={handleChange}
-          helperText="Click to change Name"
+          disabled
+          // helperText="Click to change Name"
         />
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly'}}>
         <TextField
@@ -38,7 +38,8 @@ const ModifyForm = (props) => {
           defaultValue={data.gender}
           value={data.gender}
           // onChange={handleChange}
-          helperText="Click to change Gender"
+          disabled
+          // helperText="Click to change Gender"
         />
         <TextField
           style={{margin: 20}}
@@ -47,7 +48,8 @@ const ModifyForm = (props) => {
           defaultValue={data.age}
           value={data.age}
           // onChange={handleChange}
-          helperText="Click to change Age"
+          disabled
+          // helperText="Click to change Age"
         />
         </div>
         <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly'}}>
@@ -58,7 +60,8 @@ const ModifyForm = (props) => {
           defaultValue={data.tenthPercent}
           value={data.tenthPercent}
           // onChange={handleChange}
-          helperText="Click to change 10th Percent"
+          disabled
+          // helperText="Click to change 10th Percent"
         />
         <TextField
           style={{margin: 20}}
@@ -67,12 +70,13 @@ const ModifyForm = (props) => {
           defaultValue={data.standard}
           value={data.standard}
           // onChange={handleChange}
-          helperText="Click to change Standard"
+          disabled
+          // helperText="Click to change Standard"
         />
       </div>
       <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '50px'}}>
-        <Button className={props.btnClass} onClick={props.handleClose}>Cancel</Button>
-        <Button className={props.btnClass} onClick={props.handleClose}>Done</Button>
+        <Button className={props.btnClass} onClick={props.handleClose}>Close</Button>
+        {/* <Button className={props.btnClass} onClick={props.handleClose}>Done</Button> */}
       </div>
     </div>
   )
@@ -110,7 +114,6 @@ const Modify = ({
   }
   const eleventhStudents = createStudentsArray(getAllStudentsData.data, 'XI')
   const twelfthStudents = createStudentsArray(getAllStudentsData.data, 'XII')
-  console.log(eleventhStudents);
   const StudentsTable = ({data}) => {
     return(
       <TableContainer component={Paper}>
@@ -150,7 +153,7 @@ const Modify = ({
     <div className={classes.root}>
       <div style={{ bgcolor: 'background.paper', display: "block", height: 'inherit', justifyContent: 'space-between' }}>
       <TabContext value={value}>
-        <div style={{ borderBottom: 1, borderRight: '0.5px solid #000' }}>
+        <div>
           <Tabs
             orientation={"horizontal"}
             value={value}

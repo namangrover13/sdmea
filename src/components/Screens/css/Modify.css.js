@@ -18,6 +18,7 @@ export const useStyles = makeStyles((theme) => ({
         background: theme.palette.primary.main,
         fontSize: 18,
         fontWeight: 600,
+        height: 40,
         color: '#fff',
         '&:hover': {
             background: theme.palette.primary.main,
