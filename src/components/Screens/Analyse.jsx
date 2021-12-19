@@ -6,6 +6,7 @@ import { useStyles } from './css/Analyse.css'
 import { STUDENTS } from '../../constants/data/Students';
 import HighchartsReact from 'highcharts-react-official'
 import Highcharts from 'highcharts'
+import LinearBuffer from '../GlobalComponents/LinearLoader';
 
 function a11yProps(index) {
     return {
@@ -19,6 +20,8 @@ const Analyse = () => {
     const [hasError, setHasError] = useState(false)
     const [students, setStudents] = useState(STUDENTS)
     const [dataToShow, setDataToShow] = useState(null);
+    const [isShow, setIsShow] = useState(false);
+    const [isShowLoader, setIsShowLoader] = useState(false)
     useEffect(() => {
         setStudents(STUDENTS);
     }, [])
@@ -89,6 +92,13 @@ const Analyse = () => {
             </div>
         )
     }
+    const handleAnalyseClick = () => {
+        setIsShowLoader(true);
+        setTimeout(() => {
+            setIsShowLoader(false);
+            setIsShow(true);
+        }, 5000);
+    }
     return (
         <div className={classes.root}>
             <div className={classes.searchDiv}>
@@ -126,9 +136,11 @@ const Analyse = () => {
                                 <h2 className={classes.detailsTxt}>Percentage in class 10: </h2><span className={classes.detail}>{dataToShow.tenthPercent}%</span>
                             </div>
                         </div>
-                        <div style={{ bgcolor: 'background.paper', display: "block", height: 'inherit', justifyContent: 'space-between', margin: '20px 0' }}>
+                        {!isShow && <Button className={classes.btn} onClick={handleAnalyseClick}>Analyse subject-wise</Button>}
+                        {isShowLoader && <LinearBuffer time={5} />}
+                        {isShow && <div style={{ bgcolor: 'background.paper', display: "block", height: 'inherit', justifyContent: 'space-between', margin: '20px 0' }}>
                             <TabContext value={value}>
-                                <div>
+                                <div style={{background: '#aaa'}}>
                                     <Tabs
                                         orientation={"horizontal"}
                                         value={value}
@@ -149,7 +161,7 @@ const Analyse = () => {
                                     <TabPanel value="4">{createChart('Chem')}</TabPanel>
                                 </div>
                             </TabContext>
-                        </div>
+                        </div>}
 
                     </>
                 }

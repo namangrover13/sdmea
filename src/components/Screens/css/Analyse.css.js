@@ -46,8 +46,21 @@ export const useStyles = makeStyles((theme) => ({
     },
     chart: {
         width: '45%',
-        borderRadius:12,
         border: '2px solid #101928',
+        boxShadow: '2px 2px 4px #101928',
         margin: '40px auto',
+    },
+    btn: {
+        width: 200,
+        height: 40,
+        background: theme.palette.primary.main,
+        color: 'white',
+        margin: '40px auto',
+        display: 'block',
+        '&:hover': {
+            background: theme.palette.primary.main,
+            color: 'white',
+            boxShadow: '2px 2px 2px #101928'
+        }
     }
 }))
