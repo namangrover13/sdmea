@@ -1,4 +1,4 @@
-import { Button, TextField } from '@material-ui/core';
+import { Button, OutlinedInput, TextField } from '@material-ui/core';
 import { Tab, Tabs } from '@material-ui/core';
 import { TabContext, TabPanel } from '@mui/lab';
 import React, { useState, useEffect } from 'react'
@@ -21,7 +21,9 @@ const Analyse = () => {
     const [students, setStudents] = useState(STUDENTS)
     const [dataToShow, setDataToShow] = useState(null);
     const [isShow, setIsShow] = useState(false);
-    const [isShowLoader, setIsShowLoader] = useState(false)
+    const [isShowLoader, setIsShowLoader] = useState(false);
+    const [isShowReview, setIsShowReview] = useState(false);
+    const [remark, setRemark] = useState("")
     useEffect(() => {
         setStudents(STUDENTS);
     }, [])
@@ -99,6 +101,15 @@ const Analyse = () => {
             setIsShow(true);
         }, 5000);
     }
+    const handleShowRemark = () => {
+        setIsShowReview(true);
+    }
+    const addRemark = (e) => {
+        setRemark(e.target.value)
+    }
+    const calcPercent = (marks) => {
+
+    }
     return (
         <div className={classes.root}>
             <div className={classes.searchDiv}>
@@ -140,7 +151,7 @@ const Analyse = () => {
                         {isShowLoader && <LinearBuffer time={5} />}
                         {isShow && <div style={{ bgcolor: 'background.paper', display: "block", height: 'inherit', justifyContent: 'space-between', margin: '20px 0' }}>
                             <TabContext value={value}>
-                                <div style={{background: '#aaa'}}>
+                                <div style={{ background: '#aaa' }}>
                                     <Tabs
                                         orientation={"horizontal"}
                                         value={value}
@@ -155,12 +166,24 @@ const Analyse = () => {
                                     </Tabs>
                                 </div>
                                 <div style={{ width: '80%', }}>
-                                    <TabPanel value="1"><div style={{display:'flex'}}>{dataToShow.isOptedBio && createChart('Bio')} {dataToShow.isOptedMaths && createChart('Maths')}</div></TabPanel>
+                                    <TabPanel value="1"><div style={{ display: 'flex' }}>{dataToShow.isOptedBio && createChart('Bio')} {dataToShow.isOptedMaths && createChart('Maths')}</div></TabPanel>
                                     <TabPanel value="2">{createChart('Eng')}</TabPanel>
                                     <TabPanel value="3">{createChart('Phy')}</TabPanel>
                                     <TabPanel value="4">{createChart('Chem')}</TabPanel>
                                 </div>
                             </TabContext>
+                        </div>}
+                        {!isShowReview && <Button onClick={handleShowRemark} className={classes.btn}>Add Remarks</Button>}
+                        {isShowReview && <div>
+                            <OutlinedInput
+                                style={{ margin: '10px 40px', width: '90%' }}
+                                id="remark"
+                                label="Remark"
+                                value={remark}
+                                helperText="Click to add remark"
+                                onChange={addRemark}
+                            />
+                            <Button className={classes.btn}>Post</Button>
                         </div>}
 
                     </>
