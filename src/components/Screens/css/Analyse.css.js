@@ -45,9 +45,9 @@ export const useStyles = makeStyles((theme) => ({
         fontWeight: 700,
     },
     chart: {
-        width: '50%',
+        width: '45%',
         borderRadius:12,
         border: '2px solid #101928',
-        margin: 20
+        margin: '40px auto',
     }
 }))

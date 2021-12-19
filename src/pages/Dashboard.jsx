@@ -22,6 +22,7 @@ function Dashboard() {
             <Grid
                 item
                 lg={10}
+                style={{background: '#ddd', height: '100%'}}
             >
                <div className={classes.header}>
                    {screenName}

@@ -1,10 +1,18 @@
 import { Button, TextField } from '@material-ui/core';
+import { Tab, Tabs } from '@material-ui/core';
+import { TabContext, TabPanel } from '@mui/lab';
 import React, { useState, useEffect } from 'react'
 import { useStyles } from './css/Analyse.css'
 import { STUDENTS } from '../../constants/data/Students';
 import HighchartsReact from 'highcharts-react-official'
 import Highcharts from 'highcharts'
 
+function a11yProps(index) {
+    return {
+        id: `vertical-tab-${index}`,
+        'aria-controls': `vertical-tabpanel-${index}`,
+    };
+}
 const Analyse = () => {
     const classes = useStyles();
     const [admn, setAdmn] = useState();
@@ -21,6 +29,10 @@ const Analyse = () => {
         else
             setHasError(false)
     }
+    const [value, setValue] = useState('1');
+    const handleTabsChange = (event, newValue) => {
+        setValue(newValue);
+    };
     const handleSearch = () => {
         // eslint-disable-next-line eqeqeq
         const result = students.find(data => data.admnNo == admn)
@@ -33,43 +45,49 @@ const Analyse = () => {
         })
         return marksArray;
     }
-    var marks =  {
-        utOne: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        utTwo: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        halfYearly:{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        utThree: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        utFour: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-        finalYearly :{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-    }
-    const options = {
-        width: 100,
-        title: {
-            text: 'Maths'
-        },
-        series: [{
-            type: 'column',
-            color: 'rgb(152, 0, 67)',
-            data: getMarksArrayForSubject(marks, 'Maths')
-        }],
-        xAxis: {
-            categories: ['UT 1', 'UT 2', 'Half Yearly', 'UT 3', 'UT 4', 'Finals'],
+    const createOptions = (subject) => {
+        return {
+            width: 100,
             title: {
-                text: 'Examinations',
-                style: {
-                    fontSize: 20,
-                    color: '#000'
+                text: subject
+            },
+            series: [{
+                type: 'column',
+                color: 'rgb(152, 0, 67)',
+                data: getMarksArrayForSubject(dataToShow.marks, subject)
+            }],
+            xAxis: {
+                categories: ['UT 1', 'UT 2', 'Half Yearly', 'UT 3', 'UT 4', 'Finals'],
+                title: {
+                    text: 'Examinations',
+                    style: {
+                        fontSize: 20,
+                        color: '#000'
+                    }
                 }
+            },
+            yAxis: {
+                title: {
+                    text: 'Marks',
+                    style: {
+                        fontSize: 20,
+                        color: '#000'
+                    }
+                },
+                min: 0,
+                max: 100
             }
-        },
-        yAxis: {
-           title: {
-            text: 'Marks',
-            style: {
-                fontSize: 20,
-                color: '#000'
-            }
-           }
         }
+    }
+    const createChart = (subject) => {
+        return (
+            <div className={classes.chart}>
+                <HighchartsReact
+                    highcharts={Highcharts}
+                    options={createOptions(subject)}
+                />
+            </div>
+        )
     }
     return (
         <div className={classes.root}>
@@ -108,16 +126,35 @@ const Analyse = () => {
                                 <h2 className={classes.detailsTxt}>Percentage in class 10: </h2><span className={classes.detail}>{dataToShow.tenthPercent}%</span>
                             </div>
                         </div>
-                        <div className={classes.chart}>
-                            <HighchartsReact
-                                highcharts={Highcharts}
-                                options={options}
-                            />
+                        <div style={{ bgcolor: 'background.paper', display: "block", height: 'inherit', justifyContent: 'space-between', margin: '20px 0' }}>
+                            <TabContext value={value}>
+                                <div>
+                                    <Tabs
+                                        orientation={"horizontal"}
+                                        value={value}
+                                        onChange={handleTabsChange}
+                                        aria-label="Horizontal tabs example"
+                                        sx={{ borderRight: 1, borderColor: 'divider' }}
+                                    >
+                                        <Tab label="Maths/Biology" value="1" {...a11yProps(1)} />
+                                        <Tab label="English" value="2" {...a11yProps(2)} />
+                                        <Tab label="Physics" value="3" {...a11yProps(3)} />
+                                        <Tab label="Chemistry" value="4" {...a11yProps(4)} />
+                                    </Tabs>
+                                </div>
+                                <div style={{ width: '80%', }}>
+                                    <TabPanel value="1"><div style={{display:'flex'}}>{dataToShow.isOptedBio && createChart('Bio')} {dataToShow.isOptedMaths && createChart('Maths')}</div></TabPanel>
+                                    <TabPanel value="2">{createChart('Eng')}</TabPanel>
+                                    <TabPanel value="3">{createChart('Phy')}</TabPanel>
+                                    <TabPanel value="4">{createChart('Chem')}</TabPanel>
+                                </div>
+                            </TabContext>
                         </div>
+
                     </>
                 }
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 
