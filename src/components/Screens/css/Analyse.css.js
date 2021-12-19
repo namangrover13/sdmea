@@ -45,9 +45,22 @@ export const useStyles = makeStyles((theme) => ({
         fontWeight: 700,
     },
     chart: {
-        width: '50%',
-        borderRadius:12,
+        width: '45%',
         border: '2px solid #101928',
-        margin: 20
+        boxShadow: '2px 2px 4px #101928',
+        margin: '40px auto',
+    },
+    btn: {
+        width: 200,
+        height: 40,
+        background: theme.palette.primary.main,
+        color: 'white',
+        margin: '40px auto',
+        display: 'block',
+        '&:hover': {
+            background: theme.palette.primary.main,
+            color: 'white',
+            boxShadow: '2px 2px 2px #101928'
+        }
     }
 }))

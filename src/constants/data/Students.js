@@ -1,4 +1,4 @@
- export const STUDENTS = [
+export const STUDENTS = [
     {
         admnNo:2001,
         name: 'Hrithik Ahuja',
@@ -9,16 +9,16 @@
         isOptedMaths: true,
         isOptedBio: false,
         marks: {
-            utOne: {'Maths': 76, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-            utTwo: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-            utThree: {'Maths': 76, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-            utFour: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-            halfYearly:{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-            finalYearly :{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        utOne: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+        utTwo: {'Maths': 90, 'Eng': 95, 'Phy': 92, 'Chem': 95, 'Bio': null},
+        halfYearly:{'Maths': 97, 'Eng': 87, 'Phy': 90, 'Chem': 88, 'Bio': null},
+        utThree: {'Maths': 91, 'Eng': 87, 'Phy': 91, 'Chem': 93, 'Bio': null},
+        utFour: {'Maths': 85, 'Eng': 87, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        finalYearly :{'Maths': 98, 'Eng': 92, 'Phy': 90, 'Chem': 97, 'Bio': null},
         }
     },
     {
-  admnNo: 2002,
+        admnNo:2002,
         name: 'Rahul Sharma',
         gender: 'M',
         age: 18,
@@ -26,9 +26,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 89, 'Phy': 88, 'Chem': 87, 'Bio': 90}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 88, 'Phy': 86, 'Chem': 82, 'Bio': 89},
+        utTwo: {'Maths': null, 'Eng': 93, 'Phy': 97, 'Chem': 95, 'Bio': 90},
+        halfYearly:{'Maths': null, 'Eng': 87, 'Phy': 95, 'Chem': 88, 'Bio': 87},
+        utThree: {'Maths': null, 'Eng': 89, 'Phy': 92, 'Chem': 91, 'Bio': 96},
+        utFour: {'Maths': null, 'Eng': 91, 'Phy': 97, 'Chem': 85, 'Bio': 97},
+        finalYearly :{'Maths': null, 'Eng': 95, 'Phy': 90, 'Chem': 98, 'Bio': 95},
+        }
     },
     {
+        admnNo:2003,
         name: 'Meenu Saini',
         gender: 'F',
         age: 16,
@@ -36,9 +44,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 91, 'Eng': 88, 'Phy': 81, 'Chem': 83, 'Bio': 95}
+        marks: {
+        utOne: {'Maths': 88, 'Eng': 80, 'Phy': 86, 'Chem': 82, 'Bio': 89},
+        utTwo: {'Maths': 90, 'Eng': 95, 'Phy': 92, 'Chem': 95, 'Bio': 97},
+        halfYearly:{'Maths': 89, 'Eng': 87, 'Phy': 90, 'Chem': 88, 'Bio': 95},
+        utThree: {'Maths': 86, 'Eng': 83, 'Phy': 81, 'Chem': 83, 'Bio': 89},
+        utFour: {'Maths': 90, 'Eng': 97, 'Phy': 92, 'Chem': 96, 'Bio': 93},
+        finalYearly :{'Maths': 88, 'Eng': 87, 'Phy': 81, 'Chem': 91, 'Bio': 90},
+        }
     },
     {
+        admnNo:2004,
         name: 'Rahul Chauhan',
         gender: 'M',
         age: 17,
@@ -46,9 +62,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 85, 'Eng': 79, 'Phy': 86, 'Chem': 81, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 95, 'Eng': 93, 'Phy': 91, 'Chem': 92, 'Bio': null},
+        utTwo: {'Maths': 80, 'Eng': 86, 'Phy': 82, 'Chem': 88, 'Bio': null},
+        halfYearly:{'Maths': 94, 'Eng': 97, 'Phy': 90, 'Chem': 98, 'Bio': null},
+        utThree: {'Maths': 84, 'Eng': 85, 'Phy': 91, 'Chem': 83, 'Bio': null},
+        utFour: {'Maths': 96, 'Eng': 87, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        finalYearly :{'Maths': 95, 'Eng': 94, 'Phy': 92, 'Chem': 91, 'Bio': null},
+        }
     },
     {
+        admnNo:2005,
         name: 'Reetu Chauhan',
         gender: 'F',
         age: 16,
@@ -56,9 +80,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 99, 'Eng': 97, 'Phy': 94, 'Chem': 95, 'Bio': 96}
+        marks: {
+        utOne: {'Maths': 96, 'Eng': 80, 'Phy': 86, 'Chem': 92, 'Bio': 98},
+        utTwo: {'Maths': 80, 'Eng': 95, 'Phy': 92, 'Chem': 85, 'Bio': 88},
+        halfYearly:{'Maths': 97, 'Eng': 87, 'Phy': 90, 'Chem': 98, 'Bio': 97},
+        utThree: {'Maths': 81, 'Eng': 97, 'Phy': 81, 'Chem': 83, 'Bio': 87},
+        utFour: {'Maths': 93, 'Eng': 95, 'Phy': 96, 'Chem': 82, 'Bio': 94},
+        finalYearly :{'Maths': 83, 'Eng': 89, 'Phy': 90, 'Chem': 92, 'Bio': 84},
+        }
     },
     {
+        admnNo:2006,
         name: 'Shrey Jain',
         gender: 'M',
         age: 18,
@@ -66,9 +98,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 80, 'Phy': 82, 'Chem': 87, 'Bio': 83}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 80, 'Phy': 96, 'Chem': 88, 'Bio': 89},
+        utTwo: {'Maths': null, 'Eng': 95, 'Phy': 82, 'Chem': 95, 'Bio': 95},
+        halfYearly:{'Maths': null, 'Eng': 87, 'Phy': 80, 'Chem': 88, 'Bio': 83},
+        utThree: {'Maths': null, 'Eng': 94, 'Phy': 91, 'Chem': 93, 'Bio': 96},
+        utFour: {'Maths': null, 'Eng': 92, 'Phy': 86, 'Chem': 90, 'Bio': 81},
+        finalYearly :{'Maths': null, 'Eng': 85, 'Phy': 93, 'Chem': 87, 'Bio': 92},
+        }
     },
     {
+        admnNo:2007,
         name: 'Vidhi Solanki',
         gender: 'F',
         age: 16,
@@ -76,9 +116,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 89, 'Phy': 80, 'Chem': 81, 'Bio': 93}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 80, 'Phy': 96, 'Chem': 84, 'Bio': 90},
+        utTwo: {'Maths': null, 'Eng': 95, 'Phy': 82, 'Chem': 97, 'Bio': 83},
+        halfYearly:{'Maths': null, 'Eng': 84, 'Phy': 82, 'Chem': 88, 'Bio': 95},
+        utThree: {'Maths': null, 'Eng': 95, 'Phy': 92, 'Chem': 94, 'Bio': 84},
+        utFour: {'Maths': null, 'Eng': 84, 'Phy': 96, 'Chem': 82, 'Bio': 97},
+        finalYearly :{'Maths': null, 'Eng': 92, 'Phy': 89, 'Chem': 93, 'Bio': 88},
+        }
     },
     {
+        admnNo:2008,
         name: 'Harsh Choudhary',
         gender: 'M',
         age: 17,
@@ -86,9 +134,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 79, 'Eng': 81, 'Phy': 84, 'Chem': 87, 'Bio': 82}
+        marks: {
+        utOne: {'Maths': 96, 'Eng': 90, 'Phy': 90, 'Chem': 93, 'Bio': 88},
+        utTwo: {'Maths': 89, 'Eng': 85, 'Phy': 83, 'Chem': 85, 'Bio': 92},
+        halfYearly:{'Maths': 97, 'Eng': 83, 'Phy': 87, 'Chem': 82, 'Bio': 87},
+        utThree: {'Maths': 84, 'Eng': 94, 'Phy': 95, 'Chem': 93, 'Bio': 94},
+        utFour: {'Maths': 95, 'Eng': 82, 'Phy': 95, 'Chem': 86, 'Bio': 85},
+        finalYearly :{'Maths': 88, 'Eng': 90, 'Phy': 83, 'Chem': 90, 'Bio': 96},
+        }
     },
     {
+        admnNo:2009,
         name: 'Himanshi Chauhan',
         gender: 'F',
         age: 16,
@@ -96,9 +152,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 88, 'Eng': 80, 'Phy': 82, 'Chem': 81, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 86, 'Eng': 95, 'Phy': 88, 'Chem': 94, 'Bio': null},
+        utTwo: {'Maths': 98, 'Eng': 80, 'Phy': 92, 'Chem': 80, 'Bio': null},
+        halfYearly:{'Maths': 85, 'Eng': 93, 'Phy': 83, 'Chem': 97, 'Bio': null},
+        utThree: {'Maths': 91, 'Eng': 87, 'Phy': 93, 'Chem': 83, 'Bio': null},
+        utFour: {'Maths': 84, 'Eng': 92, 'Phy': 89, 'Chem': 90, 'Bio': null},
+        finalYearly :{'Maths': 93, 'Eng': 82, 'Phy': 94, 'Chem': 86, 'Bio': null},
+        }
     },
     {
+        admnNo:2010,
         name: 'Ritesh Rastogi',
         gender: 'M',
         age: 17,
@@ -106,9 +170,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 71, 'Eng': 73, 'Phy': 70, 'Chem': 78, 'Bio': 79}
+        marks: {
+        utOne: {'Maths': 88, 'Eng': 90, 'Phy': 86, 'Chem': 92, 'Bio': 98},
+        utTwo: {'Maths': 90, 'Eng': 95, 'Phy': 92, 'Chem': 85, 'Bio': 87},
+        halfYearly:{'Maths': 85, 'Eng': 96, 'Phy': 80, 'Chem': 98, 'Bio': 93},
+        utThree: {'Maths': 91, 'Eng': 87, 'Phy': 91, 'Chem': 83, 'Bio': 81},
+        utFour: {'Maths': 95, 'Eng': 97, 'Phy': 85, 'Chem': 97, 'Bio': 95},
+        finalYearly :{'Maths': 98, 'Eng': 82, 'Phy': 90, 'Chem': 87, 'Bio': 88},
+        }
     },
     {
+        admnNo:2011,
         name: 'Nidhi Bhanushali',
         gender: 'F',
         age: 17,
@@ -116,9 +188,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 75, 'Phy': 71, 'Chem': 73, 'Bio': 69}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 80, 'Phy': 76, 'Chem': 72, 'Bio': 70},
+        utTwo: {'Maths': null, 'Eng': 75, 'Phy': 82, 'Chem': 85, 'Bio': 79},
+        halfYearly:{'Maths': null, 'Eng': 82, 'Phy': 70, 'Chem': 88, 'Bio': 82},
+        utThree: {'Maths': null, 'Eng': 77, 'Phy': 81, 'Chem': 73, 'Bio': 75},
+        utFour: {'Maths': null, 'Eng': 84, 'Phy': 76, 'Chem': 82, 'Bio': 88},
+        finalYearly :{'Maths': null, 'Eng': 76, 'Phy': 83, 'Chem': 75, 'Bio': 77},
+        }
     },
     {
+        admnNo:2012,
         name: 'John Bhanushali',
         gender: 'M',
         age: 18,
@@ -126,9 +206,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 68, 'Phy': 78, 'Chem': 79, 'Bio': 71}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 70, 'Phy': 86, 'Chem': 73, 'Bio': 86},
+        utTwo: {'Maths': null, 'Eng': 85, 'Phy': 72, 'Chem': 77, 'Bio': 71},
+        halfYearly:{'Maths': null, 'Eng': 81, 'Phy': 83, 'Chem': 80, 'Bio': 88},
+        utThree: {'Maths': null, 'Eng': 70, 'Phy': 71, 'Chem': 73, 'Bio': 79},
+        utFour: {'Maths': null, 'Eng': 84, 'Phy': 86, 'Chem': 82, 'Bio': 78},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 70, 'Chem': 77, 'Bio': 80},
+        }
     },
     {
+        admnNo:2013,
         name: 'Vikrant Jain',
         gender: 'M',
         age: 17,
@@ -136,9 +224,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 78, 'Eng': 72, 'Phy': 75, 'Chem': 70, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 72, 'Eng': 80, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        utTwo: {'Maths': 80, 'Eng': 75, 'Phy': 72, 'Chem': 75, 'Bio': null},
+        halfYearly:{'Maths': 77, 'Eng': 81, 'Phy': 80, 'Chem': 88, 'Bio': null},
+        utThree: {'Maths': 81, 'Eng': 76, 'Phy': 71, 'Chem': 73, 'Bio': null},
+        utFour: {'Maths': 75, 'Eng': 85, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        finalYearly :{'Maths': 83, 'Eng': 72, 'Phy': 71, 'Chem': 77, 'Bio': null},
+        }
     },
     {
+        admnNo:2014,
         name: 'Kritika Bagga',
         gender: 'F',
         age: 16,
@@ -146,9 +242,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 78, 'Eng': 77, 'Phy': 75, 'Chem': 73, 'Bio': 78}
+        marks: {
+        utOne: {'Maths': 76, 'Eng': 80, 'Phy': 76, 'Chem': 72, 'Bio': 77},
+        utTwo: {'Maths': 80, 'Eng': 75, 'Phy': 82, 'Chem': 85, 'Bio': 80},
+        halfYearly:{'Maths': 77, 'Eng': 77, 'Phy': 70, 'Chem': 78, 'Bio': 82},
+        utThree: {'Maths': 81, 'Eng': 82, 'Phy': 81, 'Chem': 73, 'Bio': 74},
+        utFour: {'Maths': 75, 'Eng': 84, 'Phy': 76, 'Chem': 81, 'Bio': 78},
+        finalYearly :{'Maths': 83, 'Eng': 72, 'Phy': 80, 'Chem': 77, 'Bio': 84},
+        }
     },
     {
+        admnNo:2015,
         name: 'Neha Sharma',
         gender: 'F',
         age: 17,
@@ -156,9 +260,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 76, 'Phy': 71, 'Chem': 74, 'Bio': 75}
+        marks: {
+       utOne: {'Maths': null, 'Eng': 70, 'Phy': 76, 'Chem': 72, 'Bio': 71},
+        utTwo: {'Maths': null, 'Eng': 75, 'Phy': 72, 'Chem': 75, 'Bio': 78},
+        halfYearly:{'Maths': null, 'Eng': 74, 'Phy': 70, 'Chem': 80, 'Bio': 79},
+        utThree: {'Maths': null, 'Eng': 81, 'Phy': 82, 'Chem': 73, 'Bio': 72},
+        utFour: {'Maths': null, 'Eng': 77, 'Phy': 76, 'Chem': 72, 'Bio': 80},
+        finalYearly :{'Maths': null, 'Eng': 82, 'Phy': 80, 'Chem': 75, 'Bio': 74},
+        }
     },
     {
+        admnNo:2016,
         name: 'Sunny Chauhan',
         gender: 'M',
         age: 17,
@@ -166,9 +278,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 74, 'Phy': 77, 'Chem': 71, 'Bio': 70}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 70, 'Phy': 71, 'Chem': 72, 'Bio': 70},
+        utTwo: {'Maths': null, 'Eng': 75, 'Phy': 80, 'Chem': 77, 'Bio': 81 },
+        halfYearly:{'Maths': null, 'Eng': 80, 'Phy': 74, 'Chem': 73, 'Bio': 71},
+        utThree: {'Maths': null, 'Eng': 71, 'Phy': 80, 'Chem': 77, 'Bio': 75},
+        utFour: {'Maths': null, 'Eng': 77, 'Phy': 71, 'Chem': 79, 'Bio': 81},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 84, 'Chem': 81, 'Bio': 73},
+        }
     },
     {
+        admnNo:2017,
         name: 'Himanshi Singh',
         gender: 'F',
         age: 16,
@@ -176,9 +296,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 74, 'Eng': 69, 'Phy': 77, 'Chem': 73, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 77, 'Eng': 70, 'Phy': 85, 'Chem': 72, 'Bio': null},
+        utTwo: {'Maths': 80, 'Eng': 76, 'Phy': 72, 'Chem': 75, 'Bio': null},
+        halfYearly:{'Maths': 74, 'Eng': 80, 'Phy': 81, 'Chem': 78, 'Bio': null},
+        utThree: {'Maths': 81, 'Eng': 75, 'Phy': 71, 'Chem': 73, 'Bio': null},
+        utFour: {'Maths': 70, 'Eng': 76, 'Phy': 78, 'Chem': 72, 'Bio': null},
+        finalYearly :{'Maths': 78, 'Eng': 83, 'Phy': 73, 'Chem': 80, 'Bio': null},
+        }
     },
     {
+        admnNo:2018,
         name: 'Ramesh Sharma',
         gender: 'M',
         age: 17,
@@ -186,9 +314,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 77, 'Phy': 70, 'Chem': 72, 'Bio': 73}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 70, 'Phy': 77, 'Chem': 72, 'Bio': 78},
+        utTwo: {'Maths': null, 'Eng': 72, 'Phy': 82, 'Chem': 75, 'Bio': 77},
+        halfYearly:{'Maths': null, 'Eng': 82, 'Phy': 70, 'Chem': 78, 'Bio': 71},
+        utThree: {'Maths': null, 'Eng': 77, 'Phy': 81, 'Chem': 83, 'Bio': 80},
+        utFour: {'Maths': null, 'Eng': 80, 'Phy': 76, 'Chem': 76, 'Bio': 72},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 70, 'Chem': 77, 'Bio': 73},
+        }
     },
     {
+        admnNo:2019,
         name: 'Shivani Rastogi',
         gender: 'F',
         age: 16,
@@ -196,9 +332,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 79, 'Eng': 73, 'Phy': 75, 'Chem': 78, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 71, 'Eng': 70, 'Phy': 78, 'Chem': 72, 'Bio': null},
+        utTwo: {'Maths': 80, 'Eng': 75, 'Phy': 92, 'Chem': 82, 'Bio': null},
+        halfYearly:{'Maths': 77, 'Eng': 77, 'Phy': 80, 'Chem': 71, 'Bio': null},
+        utThree: {'Maths': 78, 'Eng': 71, 'Phy': 71, 'Chem': 77, 'Bio': null},
+        utFour: {'Maths': 75, 'Eng': 80, 'Phy': 76, 'Chem': 78, 'Bio': null},
+        finalYearly :{'Maths': 70, 'Eng': 72, 'Phy': 80, 'Chem': 79, 'Bio': null},
+        }
     },
     {
+        admnNo:2020,
         name: 'Kapil Sharma',
         gender: 'M',
         age: 17,
@@ -206,9 +350,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 67, 'Phy': 65, 'Chem': 63, 'Bio': 66}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 79, 'Phy': 76, 'Chem': 80, 'Bio': 77},
+        utTwo: {'Maths': null, 'Eng': 71, 'Phy': 72, 'Chem': 71, 'Bio': 72},
+        halfYearly:{'Maths': null, 'Eng': 70, 'Phy': 70, 'Chem': 77, 'Bio': 71},
+        utThree: {'Maths': null, 'Eng': 72, 'Phy': 71, 'Chem': 73, 'Bio': 74},
+        utFour: {'Maths': null, 'Eng': 77, 'Phy': 76, 'Chem': 72, 'Bio': 73},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 70, 'Chem': 77, 'Bio': 76},
+        }
     },
     {
+        admnNo:2021,
         name: 'Mehak Malik',
         gender: 'F',
         age: 16,
@@ -216,9 +368,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 78, 'Eng': 74, 'Phy': 75, 'Chem': 72, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 67, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        utTwo: {'Maths': 70, 'Eng': 77, 'Phy': 72, 'Chem': 65, 'Bio': null},
+        halfYearly:{'Maths': 70, 'Eng': 77, 'Phy': 70, 'Chem': 68, 'Bio': null},
+        utThree: {'Maths': 60, 'Eng': 65, 'Phy': 69, 'Chem': 63, 'Bio': null},
+        utFour: {'Maths': 63, 'Eng': 69, 'Phy': 72, 'Chem': 71, 'Bio': null},
+        finalYearly :{'Maths': 67, 'Eng': 68, 'Phy': 70, 'Chem': 67, 'Bio': null},
+        }
     },
     {
+        admnNo:2022,
         name: 'Raghav Malik',
         gender: 'M',
         age: 17,
@@ -226,9 +386,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 65, 'Phy': 66, 'Chem': 68, 'Bio': 63}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 68, 'Phy': 66, 'Chem': 72, 'Bio': 78},
+        utTwo: {'Maths': null, 'Eng': 74, 'Phy': 72, 'Chem': 69, 'Bio': 68},
+        halfYearly:{'Maths': null, 'Eng': 77, 'Phy': 70, 'Chem': 68, 'Bio': 69},
+        utThree: {'Maths': null, 'Eng': 74, 'Phy': 71, 'Chem': 65, 'Bio': 62},
+        utFour: {'Maths': null, 'Eng': 67, 'Phy': 76, 'Chem': 63, 'Bio': 69},
+        finalYearly :{'Maths': null, 'Eng': 67, 'Phy': 70, 'Chem': 74, 'Bio': 70},
+        }
     },
     {
+        admnNo:2023,
         name: 'Prachi Sharma',
         gender: 'F',
         age: 17,
@@ -236,9 +404,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 65, 'Eng': 64, 'Phy': 62, 'Chem': 68, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 60, 'Phy': 66, 'Chem': 72, 'Bio': null},
+        utTwo: {'Maths': 70, 'Eng': 75, 'Phy': 72, 'Chem': 65, 'Bio': null},
+        halfYearly:{'Maths': 67, 'Eng': 67, 'Phy': 60, 'Chem': 68, 'Bio': null},
+        utThree: {'Maths': 71, 'Eng': 77, 'Phy': 71, 'Chem': 73, 'Bio': null},
+        utFour: {'Maths': 65, 'Eng': 63, 'Phy': 76, 'Chem': 72, 'Bio': null},
+        finalYearly :{'Maths': 74, 'Eng': 67, 'Phy': 78, 'Chem': 67, 'Bio': null},
+        }
     },
     {
+        admnNo:2024,
         name: 'Rishabh Rastogi',
         gender: 'M',
         age: 16,
@@ -246,9 +422,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 63, 'Phy': 62, 'Chem': 60, 'Bio': 67}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 66, 'Chem': 72, 'Bio': 67},
+        utTwo: {'Maths': null, 'Eng': 75, 'Phy': 72, 'Chem': 75, 'Bio': 77},
+        halfYearly:{'Maths': null, 'Eng': 65, 'Phy': 70, 'Chem': 78, 'Bio': 66},
+        utThree: {'Maths': null, 'Eng': 66, 'Phy': 71, 'Chem': 73, 'Bio': 77},
+        utFour: {'Maths': null, 'Eng': 67, 'Phy': 66, 'Chem': 72, 'Bio': 67},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 70, 'Chem': 66, 'Bio': 68},
+        }
     },
     {
+        admnNo:2025,
         name: 'Janvi Malik',
         gender: 'F',
         age: 16,
@@ -256,9 +440,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 64, 'Eng': 68, 'Phy': 60, 'Chem': 69, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 60, 'Phy': 76, 'Chem': 72, 'Bio': null},
+        utTwo: {'Maths': 70, 'Eng': 75, 'Phy': 62, 'Chem': 65, 'Bio': null},
+        halfYearly:{'Maths': 67, 'Eng': 68, 'Phy': 69, 'Chem': 70, 'Bio': null},
+        utThree: {'Maths': 71, 'Eng': 67, 'Phy': 61, 'Chem': 63, 'Bio': null},
+        utFour: {'Maths': 65, 'Eng': 77, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        finalYearly :{'Maths': 68, 'Eng': 62, 'Phy': 69 , 'Chem': 67, 'Bio': null},
+        }
     },
     {
+        admnNo:2026,
         name: 'Nishant Sharma',
         gender: 'M',
         age: 17,
@@ -266,9 +458,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 65, 'Phy': 68, 'Chem': 63, 'Bio': 61}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 74, 'Chem': 62, 'Bio': 67},
+        utTwo: {'Maths': null, 'Eng': 75, 'Phy': 62, 'Chem': 75, 'Bio': 74},
+        halfYearly:{'Maths': null, 'Eng': 67, 'Phy': 70, 'Chem': 68, 'Bio': 62},
+        utThree: {'Maths': null, 'Eng': 77, 'Phy': 61, 'Chem': 73, 'Bio': 63},
+        utFour: {'Maths': null, 'Eng': 67, 'Phy': 76, 'Chem': 72, 'Bio': 75},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 70, 'Chem': 77, 'Bio': 74},
+        }
     },
     {
+        admnNo:2027,
         name: 'Madan Sharma',
         gender: 'M',
         age: 17,
@@ -276,9 +476,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 64, 'Eng': 62, 'Phy': 63, 'Chem': 61, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 67, 'Eng': 70, 'Phy': 66, 'Chem': 67, 'Bio': null},
+        utTwo: {'Maths': 63, 'Eng': 65, 'Phy': 67, 'Chem': 77, 'Bio': null},
+        halfYearly:{'Maths': 66, 'Eng': 72, 'Phy': 60, 'Chem': 68, 'Bio': null},
+        utThree: {'Maths': 71, 'Eng': 64, 'Phy': 62, 'Chem': 61, 'Bio': null},
+        utFour: {'Maths': 75, 'Eng': 65, 'Phy': 66, 'Chem': 72, 'Bio': null},
+        finalYearly :{'Maths': 68, 'Eng': 72, 'Phy': 60, 'Chem': 74, 'Bio': null},
+        }
     },
     {
+        admnNo:2028,
         name: 'Khushi Chauhan',
         gender: 'F',
         age: 17,
@@ -286,9 +494,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 65, 'Phy': 62, 'Chem': 64, 'Bio': 92}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 70, 'Phy': 72, 'Chem': 72, 'Bio': 68},
+        utTwo: {'Maths': null, 'Eng': 65, 'Phy': 62, 'Chem': 65, 'Bio': 69},
+        halfYearly:{'Maths': null, 'Eng': 68, 'Phy': 60, 'Chem': 68, 'Bio': 67},
+        utThree: {'Maths': null, 'Eng': 69, 'Phy': 71, 'Chem': 63, 'Bio': 70},
+        utFour: {'Maths': null, 'Eng': 64, 'Phy': 76, 'Chem': 62, 'Bio': 71},
+        finalYearly :{'Maths': null, 'Eng': 69, 'Phy': 70, 'Chem': 67, 'Bio': 70},
+        }
     },
     {
+        admnNo:2029,
         name: 'Muskan Choudhary',
         gender: 'f',
         age: 17,
@@ -296,9 +512,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 60, 'Eng': 59, 'Phy': 67, 'Chem': 65, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 70, 'Phy': 66, 'Chem': 72, 'Bio': null},
+        utTwo: {'Maths': 70, 'Eng': 65, 'Phy': 72, 'Chem': 65, 'Bio': null},
+        halfYearly:{'Maths': 67, 'Eng': 67, 'Phy': 70, 'Chem': 68, 'Bio': null},
+        utThree: {'Maths': 71, 'Eng': 67, 'Phy': 71, 'Chem': 69, 'Bio': null},
+        utFour: {'Maths': 65, 'Eng': 65, 'Phy': 66, 'Chem': 70, 'Bio': null},
+        finalYearly :{'Maths': 68, 'Eng': 72, 'Phy': 60, 'Chem': 67, 'Bio': null},
+        }
     },
     {
+        admnNo:2030,
         name: 'Himanshu Sharma',
         gender: 'M',
         age: 16,
@@ -306,9 +530,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 53, 'Phy': 50, 'Chem': 58, 'Bio': 52}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 70, 'Phy': 70, 'Chem': 62, 'Bio': 67},
+        utTwo: {'Maths': null, 'Eng': 65, 'Phy': 66, 'Chem': 75, 'Bio': 68},
+        halfYearly:{'Maths': null, 'Eng': 77, 'Phy': 60, 'Chem': 68, 'Bio': 69},
+        utThree: {'Maths': null, 'Eng': 73, 'Phy': 71, 'Chem': 73, 'Bio': 70},
+        utFour: {'Maths': null, 'Eng': 71, 'Phy': 66, 'Chem': 62, 'Bio': 71},
+        finalYearly :{'Maths': null, 'Eng': 71, 'Phy': 70, 'Chem': 67, 'Bio': 72},
+        }
     },
     {
+        admnNo:2031,
         name: 'Hrithik Jain',
         gender: 'M',
         age: 18,
@@ -316,9 +548,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 59, 'Eng': 52, 'Phy': 52, 'Chem': 57, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 55, 'Eng': 66, 'Phy': 56, 'Chem': 62, 'Bio': null},
+        utTwo: {'Maths': 60, 'Eng': 68, 'Phy': 62, 'Chem': 55, 'Bio': null},
+        halfYearly:{'Maths': 57, 'Eng': 67, 'Phy': 50, 'Chem': 58, 'Bio': null},
+        utThree: {'Maths': 61, 'Eng': 57, 'Phy': 51, 'Chem': 53, 'Bio': null},
+        utFour: {'Maths': 55, 'Eng': 67, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        finalYearly :{'Maths': 58, 'Eng': 52, 'Phy': 60, 'Chem': 57, 'Bio': null},
+        }
     },
     {
+        admnNo:2032,
         name: 'Rashmi Tomer',
         gender: 'F',
         age: 16,
@@ -326,9 +566,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 55, 'Phy': 56, 'Chem': 57, 'Bio': 53}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 56, 'Phy': 66, 'Chem': 52, 'Bio': 66},
+        utTwo: {'Maths': null, 'Eng': 68, 'Phy': 65, 'Chem': 64, 'Bio': 67},
+        halfYearly:{'Maths': null, 'Eng': 67, 'Phy': 66, 'Chem': 68, 'Bio': 63},
+        utThree: {'Maths': null, 'Eng': 57, 'Phy': 67, 'Chem': 63, 'Bio': 67},
+        utFour: {'Maths': null, 'Eng': 57, 'Phy': 66, 'Chem': 58, 'Bio': 57},
+        finalYearly :{'Maths': null, 'Eng': 58, 'Phy': 57, 'Chem': 58, 'Bio': 58},
+        }
     },
     {
+        admnNo:2033,
         name: 'Ridhi Chauhan',
         gender: 'F',
         age: 17,
@@ -336,9 +584,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 59, 'Eng': 55, 'Phy': 54, 'Chem': 51, 'Bio': null}
+        marks: {
+       utOne: {'Maths': 56, 'Eng': 55, 'Phy': 66, 'Chem': 53, 'Bio': null},
+        utTwo: {'Maths': 60, 'Eng': 65, 'Phy': 52, 'Chem': 67, 'Bio': null},
+        halfYearly:{'Maths': 57, 'Eng': 67, 'Phy': 60, 'Chem': 68, 'Bio': null},
+        utThree: {'Maths': 61, 'Eng': 57, 'Phy': 61, 'Chem': 53, 'Bio': null},
+        utFour: {'Maths': 65, 'Eng': 67, 'Phy': 56, 'Chem': 62, 'Bio': null},
+        finalYearly :{'Maths': 58, 'Eng': 62, 'Phy': 60, 'Chem': 57, 'Bio': null},
+        }
     },
     {
+        admnNo:2034,
         name: 'Rohit Sharma',
         gender: 'M',
         age: 17,
@@ -346,9 +602,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 57, 'Phy': 58, 'Chem': 50, 'Bio': 58}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 56, 'Chem': 52, 'Bio': 52},
+        utTwo: {'Maths': null, 'Eng': 55, 'Phy': 52, 'Chem': 65, 'Bio': 58},
+        halfYearly:{'Maths': null, 'Eng': 57, 'Phy': 60, 'Chem': 58, 'Bio': 59},
+        utThree: {'Maths': null, 'Eng': 59, 'Phy': 61, 'Chem': 63, 'Bio': 58},
+        utFour: {'Maths': null, 'Eng': 58, 'Phy': 56, 'Chem': 52, 'Bio': 61},
+        finalYearly :{'Maths': null, 'Eng': 62, 'Phy': 60, 'Chem': 57, 'Bio': 62},
+        }
     },
     {
+        admnNo:2035,
         name: 'Bhoumik Chauahan',
         gender: 'M',
         age: 18,
@@ -356,9 +620,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 53, 'Eng': 51, 'Phy': 58, 'Chem': 53, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 58, 'Eng': 50, 'Phy': 56, 'Chem': 62, 'Bio': null},
+        utTwo: {'Maths': 60, 'Eng': 65, 'Phy': 62, 'Chem': 55, 'Bio': null},
+        halfYearly:{'Maths': 57, 'Eng': 57, 'Phy': 60, 'Chem': 58, 'Bio': null},
+        utThree: {'Maths': 61, 'Eng': 58, 'Phy': 61, 'Chem': 53, 'Bio': null},
+        utFour: {'Maths': 65, 'Eng': 59, 'Phy': 56, 'Chem': 62, 'Bio': null},
+        finalYearly :{'Maths': 58, 'Eng': 62, 'Phy': 60, 'Chem': 57, 'Bio': null},
+        }
     },
     {
+        admnNo:2036,
         name: 'Ajay Sharma',
         gender: 'M',
         age: 16,
@@ -366,9 +638,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 59, 'Phy': 52, 'Chem': 51, 'Bio': 50}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 58, 'Phy': 56, 'Chem': 62, 'Bio': 59},
+        utTwo: {'Maths': null, 'Eng': 55, 'Phy': 62, 'Chem': 55, 'Bio': 62},
+        halfYearly:{'Maths': null, 'Eng': 57, 'Phy': 60, 'Chem': 58, 'Bio': 61},
+        utThree: {'Maths': null, 'Eng': 68, 'Phy': 62, 'Chem': 64, 'Bio': 58},
+        utFour: {'Maths': null, 'Eng': 57, 'Phy': 63, 'Chem': 62, 'Bio': 53},
+        finalYearly :{'Maths': null, 'Eng': 61, 'Phy': 59, 'Chem': 57, 'Bio': 51},
+        }
     },
     {
+        admnNo:2037,
         name: 'Deepika Rastogi',
         gender: 'F',
         age: 17,
@@ -376,9 +656,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 57, 'Eng': 56, 'Phy': 54, 'Chem': 50, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 60, 'Phy': 66, 'Chem': 61, 'Bio': null},
+        utTwo: {'Maths': 53, 'Eng': 55, 'Phy': 52, 'Chem': 57, 'Bio': null},
+        halfYearly:{'Maths': 60, 'Eng': 60, 'Phy': 60, 'Chem': 68, 'Bio': null},
+        utThree: {'Maths': 56, 'Eng': 57, 'Phy': 51, 'Chem': 53, 'Bio': null},
+        utFour: {'Maths': 65, 'Eng': 59, 'Phy': 59, 'Chem': 58, 'Bio': null},
+        finalYearly :{'Maths': 68, 'Eng': 52, 'Phy': 60, 'Chem': 70, 'Bio': null},
+        }
     },
     {
+        admnNo:2038,
         name: 'Yogita Sharma',
         gender: 'F',
         age: 16,
@@ -386,9 +674,17 @@
         standard: 'XI',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 59, 'Phy': 53, 'Chem': 52, 'Bio': 52}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 56, 'Chem': 62, 'Bio': 58},
+        utTwo: {'Maths': null, 'Eng': 55, 'Phy': 52, 'Chem': 55, 'Bio': 51},
+        halfYearly:{'Maths': null, 'Eng': 59, 'Phy': 60, 'Chem': 68, 'Bio': 52},
+        utThree: {'Maths': null, 'Eng': 60, 'Phy': 51, 'Chem': 53, 'Bio': 54},
+        utFour: {'Maths': null, 'Eng': 61, 'Phy': 56, 'Chem': 52, 'Bio': 55},
+        finalYearly :{'Maths': null, 'Eng': 62, 'Phy': 60, 'Chem': 57, 'Bio': 58},
+        }
     },
     {
+        admnNo:2039,
         name: 'Komal Ahuja',
         gender: 'F',
         age: 18,
@@ -396,9 +692,17 @@
         standard: 'XI',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 55, 'Eng': 58, 'Phy': 59, 'Chem': 52, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 56, 'Eng': 60, 'Phy': 56, 'Chem': 52, 'Bio': null},
+        utTwo: {'Maths': 57, 'Eng': 55, 'Phy': 62, 'Chem': 55, 'Bio': null},
+        halfYearly:{'Maths': 58, 'Eng': 58, 'Phy': 60, 'Chem': 58, 'Bio': null},
+        utThree: {'Maths': 61, 'Eng': 59, 'Phy': 51, 'Chem': 53, 'Bio': null},
+        utFour: {'Maths': 55, 'Eng': 60, 'Phy': 56, 'Chem': 62, 'Bio': null},
+        finalYearly :{'Maths': 58, 'Eng': 52, 'Phy': 50, 'Chem': 57, 'Bio': null},
+        }
     },
     {
+        admnNo:2040,
         name: 'Richa Sharma',
         gender: 'F',
         age: 18,
@@ -406,9 +710,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 89, 'Phy': 83, 'Chem': 82, 'Bio': 87}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 66, 'Chem': 52, 'Bio': 55},
+        utTwo: {'Maths': null, 'Eng': 55, 'Phy': 52, 'Chem': 65, 'Bio': 58},
+        halfYearly:{'Maths': null, 'Eng': 57, 'Phy': 50, 'Chem': 58, 'Bio': 51},
+        utThree: {'Maths': null, 'Eng': 67, 'Phy': 61, 'Chem': 53, 'Bio': 59},
+        utFour: {'Maths': null, 'Eng': 59, 'Phy': 56, 'Chem': 62, 'Bio': 61},
+        finalYearly :{'Maths': null, 'Eng': 62, 'Phy': 60, 'Chem': 57, 'Bio': 62},
+        }
     },
     {
+        admnNo:2041,
         name: 'Paras Chauhan',
         gender: 'M',
         age: 19,
@@ -416,9 +728,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 81, 'Eng': 80, 'Phy': 82, 'Chem': 83, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 90, 'Eng': 95, 'Phy': 88, 'Chem': 92, 'Bio': null},
+        utTwo: {'Maths': 80, 'Eng': 87, 'Phy': 92, 'Chem': 95, 'Bio': null},
+        halfYearly:{'Maths': 97, 'Eng': 87, 'Phy': 90, 'Chem': 88, 'Bio': null},
+        utThree: {'Maths': 81, 'Eng': 97, 'Phy': 81, 'Chem': 90, 'Bio': null},
+        utFour: {'Maths': 95, 'Eng': 85, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        finalYearly :{'Maths': 88, 'Eng': 92, 'Phy': 90, 'Chem': 97, 'Bio': null},
+        }
     },
     {
+        admnNo:2042,
         name: 'Rohan Choudhary',
         gender: 'M',
         age: 18,
@@ -426,9 +746,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 87, 'Phy': 83, 'Chem': 82, 'Bio': 89}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 89, 'Phy': 86, 'Chem': 82, 'Bio': 98},
+        utTwo: {'Maths': null, 'Eng': 95, 'Phy': 92, 'Chem': 95, 'Bio': 93},
+        halfYearly:{'Maths': null, 'Eng': 81, 'Phy': 90, 'Chem': 88, 'Bio': 91},
+        utThree: {'Maths': null, 'Eng': 97, 'Phy': 95, 'Chem': 93, 'Bio': 90},
+        utFour: {'Maths': null, 'Eng': 86, 'Phy': 86, 'Chem': 85, 'Bio': 89},
+        finalYearly :{'Maths': null, 'Eng': 92, 'Phy': 95, 'Chem': 87, 'Bio': 82},
+        }
     },
     {
+        admnNo:2043,
         name: 'Tanisha Tomer',
         gender: 'F',
         age: 17,
@@ -436,9 +764,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 82, 'Eng': 84, 'Phy': 80, 'Chem': 81, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 91, 'Eng': 82, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        utTwo: {'Maths': 98, 'Eng': 95, 'Phy': 92, 'Chem': 95, 'Bio': null},
+        halfYearly:{'Maths': 88, 'Eng': 83, 'Phy': 84, 'Chem': 88, 'Bio': null},
+        utThree: {'Maths': 84, 'Eng': 81, 'Phy': 81, 'Chem': 83, 'Bio': null},
+        utFour: {'Maths': 90, 'Eng': 90, 'Phy': 95, 'Chem': 92, 'Bio': null},
+        finalYearly :{'Maths': 92, 'Eng': 82, 'Phy': 80, 'Chem': 87, 'Bio': null},
+        }
     },
     {
+        admnNo:2044,
         name: 'Ronak Rastogi',
         gender: 'M',
         age: 18,
@@ -446,9 +782,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 89, 'Phy': 82, 'Chem': 86, 'Bio': 88}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 93, 'Phy': 86, 'Chem': 92, 'Bio': 87},
+        utTwo: {'Maths': null, 'Eng': 85, 'Phy': 92, 'Chem': 85, 'Bio': 88},
+        halfYearly:{'Maths': null, 'Eng': 97, 'Phy': 93, 'Chem': 88, 'Bio': 81},
+        utThree: {'Maths': null, 'Eng': 82, 'Phy': 81, 'Chem': 83, 'Bio': 86},
+        utFour: {'Maths': null, 'Eng': 97, 'Phy': 96, 'Chem': 92, 'Bio': 89},
+        finalYearly :{'Maths': null, 'Eng': 82, 'Phy': 85, 'Chem': 87, 'Bio': 93},
+        }
     },
     {
+        admnNo:2045,
         name: 'Bhavika Arora',
         gender: 'F',
         age: 19,
@@ -456,9 +800,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 83, 'Eng': 81, 'Phy': 84, 'Chem': 81, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 86, 'Eng': 93, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        utTwo: {'Maths': 90, 'Eng': 85, 'Phy': 92, 'Chem': 95, 'Bio': null},
+        halfYearly:{'Maths': 87, 'Eng': 92, 'Phy': 89, 'Chem': 95, 'Bio': null},
+        utThree: {'Maths': 92, 'Eng': 97, 'Phy': 81, 'Chem': 83, 'Bio': null},
+        utFour: {'Maths': 95, 'Eng': 88, 'Phy': 86, 'Chem': 92, 'Bio': null},
+        finalYearly :{'Maths': 88, 'Eng': 91, 'Phy': 87, 'Chem': 88, 'Bio': null},
+        }
     },
     {
+        admnNo:2046,
         name: 'Abdul Mogni',
         gender: 'M',
         age: 18,
@@ -466,9 +818,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 85, 'Eng': 82, 'Phy': 89, 'Chem': 83, 'Bio': 81}
+        marks: {
+        utOne: {'Maths': 98, 'Eng': 80, 'Phy': 86, 'Chem': 92, 'Bio': 94},
+        utTwo: {'Maths': 90, 'Eng': 91, 'Phy': 92, 'Chem': 85, 'Bio': 92},
+        halfYearly:{'Maths': 93, 'Eng': 87, 'Phy': 90, 'Chem': 88, 'Bio': 91},
+        utThree: {'Maths': 89, 'Eng': 90, 'Phy': 81, 'Chem': 83, 'Bio': 90},
+        utFour: {'Maths': 92, 'Eng': 88, 'Phy': 86, 'Chem': 82, 'Bio': 96},
+        finalYearly :{'Maths': 83, 'Eng': 82, 'Phy': 90, 'Chem': 95, 'Bio': 94},
+        }
     },
     {
+        admnNo:2047,
         name: 'Naina Bhalla',
         gender: 'F',
         age: 17,
@@ -476,9 +836,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 80, 'Eng': 82, 'Phy': 85, 'Chem': 82, 'Bio': 86}
+        marks: {
+        utOne: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': 98},
+        utTwo: {'Maths': 80, 'Eng': 85, 'Phy': 82, 'Chem': 85, 'Bio': 94},
+        halfYearly:{'Maths': 97, 'Eng': 87, 'Phy': 90, 'Chem': 88, 'Bio': 91},
+        utThree: {'Maths': 81, 'Eng': 92, 'Phy': 82, 'Chem': 83, 'Bio': 90},
+        utFour: {'Maths': 85, 'Eng': 97, 'Phy': 96, 'Chem': 92, 'Bio': 89},
+        finalYearly :{'Maths': 88, 'Eng': 82, 'Phy': 80, 'Chem': 87, 'Bio': 87},
+        }
     },
     {
+        admnNo:2048,
         name: 'Bharat Pandey',
         gender: 'M',
         age: 18,
@@ -486,9 +854,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 83, 'Phy': 82, 'Chem': 82, 'Bio': 80}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 93, 'Phy': 89, 'Chem': 82, 'Bio': null},
+        utTwo: {'Maths': null, 'Eng': 98, 'Phy': 82, 'Chem': 85, 'Bio': null},
+        halfYearly:{'Maths': null, 'Eng': 94, 'Phy': 96, 'Chem': 98, 'Bio': null},
+        utThree: {'Maths': null, 'Eng': 91, 'Phy': 91, 'Chem': 93, 'Bio': null},
+        utFour: {'Maths': null, 'Eng': 89, 'Phy': 87, 'Chem': 88, 'Bio': null},
+        finalYearly :{'Maths': null, 'Eng': 92, 'Phy': 91, 'Chem': 93, 'Bio': null},
+        }
     },
     {
+        admnNo:2049,
         name: 'Parul Srivastav',
         gender: 'F',
         age: 17,
@@ -496,9 +872,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 82, 'Eng': 84, 'Phy': 81, 'Chem': 85, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 86, 'Eng': 80, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        utTwo: {'Maths': 90, 'Eng': 95, 'Phy': 92, 'Chem': 85, 'Bio': null},
+        halfYearly:{'Maths': 87, 'Eng': 97, 'Phy': 80, 'Chem': 88, 'Bio': null},
+        utThree: {'Maths': 81, 'Eng': 82, 'Phy': 91, 'Chem': 83, 'Bio': null},
+        utFour: {'Maths': 95, 'Eng': 92, 'Phy': 96, 'Chem': 82, 'Bio': null},
+        finalYearly :{'Maths': 88, 'Eng': 82, 'Phy': 80, 'Chem': 87, 'Bio': null},
+        }
     },
     {
+        admnNo:2050,
         name: 'Aman Kumar',
         gender: 'M',
         age: 17,
@@ -506,9 +890,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 78, 'Phy': 76, 'Chem': 74, 'Bio': 72}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 90, 'Phy': 86, 'Chem': 92, 'Bio': 89},
+        utTwo: {'Maths': null, 'Eng': 85, 'Phy': 92, 'Chem': 95, 'Bio': 85},
+        halfYearly:{'Maths': null, 'Eng': 97, 'Phy': 90, 'Chem': 88, 'Bio': 90},
+        utThree: {'Maths': null, 'Eng': 88, 'Phy': 81, 'Chem': 83, 'Bio': 87},
+        utFour: {'Maths': null, 'Eng': 91, 'Phy': 86, 'Chem': 92, 'Bio': 92},
+        finalYearly :{'Maths': null, 'Eng': 82, 'Phy': 91, 'Chem': 99, 'Bio': 97},
+        }
     },
     {
+        admnNo:2051,
         name: 'Richa Mishra',
         gender: 'F',
         age: 18,
@@ -516,9 +908,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 73, 'Eng': 71, 'Phy': 70, 'Chem': 76, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 76, 'Eng': 70, 'Phy': 76, 'Chem': 72, 'Bio': null},
+        utTwo: {'Maths': 80, 'Eng': 85, 'Phy': 72, 'Chem': 75, 'Bio': null},
+        halfYearly:{'Maths': 77, 'Eng': 77, 'Phy': 80, 'Chem': 79, 'Bio': null},
+        utThree: {'Maths': 81, 'Eng': 77, 'Phy': 74, 'Chem': 73, 'Bio': null},
+        utFour: {'Maths': 75, 'Eng': 77, 'Phy': 86, 'Chem': 82, 'Bio': null},
+        finalYearly :{'Maths': 78, 'Eng': 82, 'Phy': 70, 'Chem': 71, 'Bio': null},
+        }
     },
     {
+        admnNo:2052,
         name: 'Shiv Narayan',
         gender: 'M',
         age: 18,
@@ -526,9 +926,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 78, 'Eng': 70, 'Phy': 76, 'Chem': 78, 'Bio': 72}
+        marks: {
+        utOne: {'Maths': 76, 'Eng': 77, 'Phy': 76, 'Chem': 72, 'Bio': 71},
+        utTwo: {'Maths': 79, 'Eng': 75, 'Phy': 72, 'Chem': 75, 'Bio': 78},
+        halfYearly:{'Maths': 83, 'Eng': 70, 'Phy': 80, 'Chem': 78, 'Bio': 79},
+        utThree: {'Maths': 71, 'Eng': 71, 'Phy': 71, 'Chem': 73, 'Bio': 81},
+        utFour: {'Maths': 76, 'Eng': 77, 'Phy': 76, 'Chem': 72, 'Bio': 82},
+        finalYearly :{'Maths': 78, 'Eng': 72, 'Phy': 80, 'Chem': 77, 'Bio': 75},
+        }
     },
     {
+        admnNo:2053,
         name: 'Ayushi Joshi',
         gender: 'F',
         age: 17,
@@ -536,9 +944,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 71, 'Eng': 71, 'Phy': 73, 'Chem': 77, 'Bio': 79}
+        marks: {
+        utOne: {'Maths': 76, 'Eng': 80, 'Phy': 76, 'Chem': 81, 'Bio': 77},
+        utTwo: {'Maths': 80, 'Eng': 71, 'Phy': 82, 'Chem': 75, 'Bio': 72},
+        halfYearly:{'Maths': 77, 'Eng': 72, 'Phy': 80, 'Chem': 78, 'Bio': 74},
+        utThree: {'Maths': 81, 'Eng': 72, 'Phy': 81, 'Chem': 73, 'Bio': 76},
+        utFour: {'Maths': 75, 'Eng': 77, 'Phy': 76, 'Chem': 72, 'Bio': 78},
+        finalYearly :{'Maths': 79, 'Eng': 72, 'Phy': 80, 'Chem': 77, 'Bio': 73},
+        }
     },
     {
+        admnNo:2054,
         name: 'Jai Kumar',
         gender: 'M',
         age: 17,
@@ -546,9 +962,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 70, 'Phy': 76, 'Chem': 72, 'Bio': 73}
+        marks: {
+       utOne: {'Maths': null, 'Eng': 80, 'Phy': 76, 'Chem': 72, 'Bio': 79},
+        utTwo: {'Maths': null, 'Eng': 75, 'Phy': 82, 'Chem': 75, 'Bio': 71},
+        halfYearly:{'Maths': null, 'Eng': 77, 'Phy': 80, 'Chem': 78, 'Bio': 74},
+        utThree: {'Maths': null, 'Eng': 81, 'Phy': 71, 'Chem': 73, 'Bio': 75},
+        utFour: {'Maths': null, 'Eng': 72, 'Phy': 76, 'Chem': 82, 'Bio': 72},
+        finalYearly :{'Maths': null, 'Eng': 79, 'Phy': 70, 'Chem': 77, 'Bio': 78},
+        }
     },
     {
+        admnNo:2055,
         name: 'Esha Mishra',
         gender: 'F',
         age: 18,
@@ -556,9 +980,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 72, 'Phy': 71, 'Chem': 76, 'Bio': 72}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 70, 'Phy': 76, 'Chem': 72, 'Bio': 78},
+        utTwo: {'Maths': null, 'Eng': 85, 'Phy': 72, 'Chem': 75, 'Bio': 79},
+        halfYearly:{'Maths': null, 'Eng': 75, 'Phy': 80, 'Chem': 78, 'Bio': 71},
+        utThree: {'Maths': null, 'Eng': 71, 'Phy': 71, 'Chem': 83, 'Bio': 79},
+        utFour: {'Maths': null, 'Eng': 77, 'Phy': 76, 'Chem': 72, 'Bio': 77},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 80, 'Chem': 81, 'Bio': 72},
+        }
     },
     {
+        admnNo:2056,
         name: 'Pranjal Tiwari',
         gender: 'M',
         age: 17,
@@ -566,9 +998,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 76, 'Eng': 73, 'Phy': 72, 'Chem': 71, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 76, 'Eng': 80, 'Phy': 86, 'Chem': 72, 'Bio': null},
+        utTwo: {'Maths': 70, 'Eng': 75, 'Phy': 72, 'Chem': 85, 'Bio': null},
+        halfYearly:{'Maths': 77, 'Eng': 79, 'Phy': 80, 'Chem': 78, 'Bio': null},
+        utThree: {'Maths': 81, 'Eng': 73, 'Phy': 71, 'Chem': 81, 'Bio': null},
+        utFour: {'Maths': 85, 'Eng': 75, 'Phy': 76, 'Chem': 72, 'Bio': null},
+        finalYearly :{'Maths': 78, 'Eng': 82, 'Phy': 70, 'Chem': 77, 'Bio': null},
+        }
     },
     {
+        admnNo:2057,
         name: 'Pooja Chauahn',
         gender: 'F',
         age: 18,
@@ -576,9 +1016,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 70, 'Phy': 78, 'Chem': 74, 'Bio': 72}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 80, 'Phy': 76, 'Chem': 71, 'Bio': 73},
+        utTwo: {'Maths': null, 'Eng': 73, 'Phy': 74, 'Chem': 75, 'Bio': 77},
+        halfYearly:{'Maths': null, 'Eng': 71, 'Phy': 70, 'Chem': 78, 'Bio': 72},
+        utThree: {'Maths': null, 'Eng': 73, 'Phy': 71, 'Chem': 73, 'Bio': 70},
+        utFour: {'Maths': null, 'Eng': 74, 'Phy': 76, 'Chem': 72, 'Bio': 79},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 70, 'Chem': 77, 'Bio': 78},
+        }
     },
     {
+        admnNo:2058,
         name: 'Sanjeev Sahani',
         gender: 'M',
         age: 17,
@@ -586,9 +1034,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 77, 'Eng': 70, 'Phy': 76, 'Chem': 72, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 76, 'Eng': 80, 'Phy': 76, 'Chem': 72, 'Bio': null},
+        utTwo: {'Maths': 70, 'Eng': 75, 'Phy': 71, 'Chem': 70, 'Bio': null},
+        halfYearly:{'Maths': 76, 'Eng': 74, 'Phy': 70, 'Chem': 78, 'Bio': null},
+        utThree: {'Maths': 71, 'Eng': 73, 'Phy': 71, 'Chem': 73, 'Bio': null},
+        utFour: {'Maths': 75, 'Eng': 72, 'Phy': 81, 'Chem': 72, 'Bio': null},
+        finalYearly :{'Maths': 78, 'Eng': 72, 'Phy': 70, 'Chem': 77, 'Bio': null},
+        }
     },
     {
+        admnNo:2059,
         name: 'Priya Malik',
         gender: 'F',
         age: 18,
@@ -596,9 +1052,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 74, 'Phy': 72, 'Chem': 71, 'Bio': 73}
+        marks: {
+       utOne: {'Maths': null, 'Eng': 77, 'Phy': 76, 'Chem': 72, 'Bio': 77},
+        utTwo: {'Maths': null, 'Eng': 75, 'Phy': 72, 'Chem': 75, 'Bio': 72},
+        halfYearly:{'Maths': null, 'Eng': 74, 'Phy': 80, 'Chem': 78, 'Bio': 70},
+        utThree: {'Maths': null, 'Eng': 71, 'Phy': 71, 'Chem': 73, 'Bio': 71},
+        utFour: {'Maths': null, 'Eng': 73, 'Phy': 76, 'Chem': 72, 'Bio': 73},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 80, 'Chem': 77, 'Bio': 78},
+        }
     },
     {
+        admnNo:2060,
         name: 'Vishant Sharma',
         gender: 'M',
         age: 17,
@@ -606,9 +1070,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 63, 'Eng': 62, 'Phy': 61, 'Chem': 68, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 76, 'Eng': 70, 'Phy': 72, 'Chem': 73, 'Bio': null},
+        utTwo: {'Maths': 80, 'Eng': 75, 'Phy': 77, 'Chem': 76, 'Bio': null},
+        halfYearly:{'Maths': 73, 'Eng': 77, 'Phy': 80, 'Chem': 78, 'Bio': null},
+        utThree: {'Maths': 74, 'Eng': 75, 'Phy': 81, 'Chem': 73, 'Bio': null},
+        utFour: {'Maths': 75, 'Eng': 73, 'Phy': 76, 'Chem': 72, 'Bio': null},
+        finalYearly :{'Maths': 78, 'Eng': 72, 'Phy': 80, 'Chem': 75, 'Bio': null},
+        }
     },
     {
+        admnNo:2061,
         name: 'Vishal Pandey',
         gender: 'M',
         age: 18,
@@ -616,9 +1088,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 60, 'Phy': 66, 'Chem': 62, 'Bio': 67}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 67, 'Chem': 68, 'Bio': 62},
+        utTwo: {'Maths': null, 'Eng': 65, 'Phy': 72, 'Chem': 65, 'Bio': 66},
+        halfYearly:{'Maths': null, 'Eng': 62, 'Phy': 60, 'Chem': 68, 'Bio': 67},
+        utThree: {'Maths': null, 'Eng': 67, 'Phy': 61, 'Chem': 63, 'Bio': 68},
+        utFour: {'Maths': null, 'Eng': 69, 'Phy': 66, 'Chem': 62, 'Bio': 69},
+        finalYearly :{'Maths': null, 'Eng': 72, 'Phy': 68, 'Chem': 67, 'Bio': 64},
+        }
     },
     {
+        admnNo:2062,
         name: 'Aaradhya Ahuja',
         gender: 'F',
         age: 17,
@@ -626,9 +1106,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 66, 'Eng': 68, 'Phy': 66, 'Chem': 67, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 60, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        utTwo: {'Maths': 70, 'Eng': 69, 'Phy': 62, 'Chem': 64, 'Bio': null},
+        halfYearly:{'Maths': 67, 'Eng': 67, 'Phy': 70, 'Chem': 62, 'Bio': null},
+        utThree: {'Maths': 71, 'Eng': 63, 'Phy': 61, 'Chem': 63, 'Bio': null},
+        utFour: {'Maths': 70, 'Eng': 61, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        finalYearly :{'Maths': 68, 'Eng': 69, 'Phy': 68, 'Chem': 63, 'Bio': null},
+        }
     },
     {
+        admnNo:2063,
         name: 'Aarav Joshi',
         gender: 'M',
         age: 18,
@@ -636,9 +1124,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 64, 'Phy': 62, 'Chem': 61, 'Bio': 60}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 70, 'Phy': 66, 'Chem': 62, 'Bio': 62},
+        utTwo: {'Maths': null, 'Eng': 65, 'Phy': 62, 'Chem': 65, 'Bio': 61},
+        halfYearly:{'Maths': null, 'Eng': 67, 'Phy': 70, 'Chem': 68, 'Bio': 62},
+        utThree: {'Maths': null, 'Eng': 63, 'Phy': 61, 'Chem': 63, 'Bio': 69},
+        utFour: {'Maths': null, 'Eng': 62, 'Phy': 66, 'Chem': 62, 'Bio': 68},
+        finalYearly :{'Maths': null, 'Eng': 62, 'Phy': 60, 'Chem': 67, 'Bio': 63},
+        }
     },
     {
+        admnNo:2064,
         name: 'Kayra Chauhan',
         gender: 'F',
         age: 17,
@@ -646,9 +1142,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 60, 'Eng': 67, 'Phy': 69, 'Chem': 62, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 70, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        utTwo: {'Maths': 70, 'Eng': 65, 'Phy': 72, 'Chem': 65, 'Bio': null},
+        halfYearly:{'Maths': 67, 'Eng': 67, 'Phy': 90, 'Chem': 68, 'Bio': null},
+        utThree: {'Maths': 61, 'Eng': 62, 'Phy': 61, 'Chem': 63, 'Bio': null},
+        utFour: {'Maths': 65, 'Eng': 61, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        finalYearly :{'Maths': 68, 'Eng': 62, 'Phy': 70, 'Chem': 67, 'Bio': null},
+        }
     },
     {
+        admnNo:2065,
         name: 'Mahira Sharma',
         gender: 'F',
         age: 17,
@@ -656,9 +1160,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 65, 'Phy': 66, 'Chem': 62, 'Bio': 68}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 70, 'Phy': 66, 'Chem': 62, 'Bio': 68},
+        utTwo: {'Maths': null, 'Eng': 65, 'Phy': 62, 'Chem': 65, 'Bio': 67},
+        halfYearly:{'Maths': null, 'Eng': 67, 'Phy': 70, 'Chem': 63, 'Bio': 66},
+        utThree: {'Maths': null, 'Eng': 63, 'Phy': 71, 'Chem': 62, 'Bio': 61},
+        utFour: {'Maths': null, 'Eng': 61, 'Phy': 66, 'Chem': 62, 'Bio': 62},
+        finalYearly :{'Maths': null, 'Eng': 62, 'Phy': 69, 'Chem': 61, 'Bio': 65},
+        }
     },
     {
+        admnNo:2066,
         name: 'Laksh Choudhary',
         gender: 'M',
         age: 18,
@@ -666,9 +1178,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 66, 'Eng': 60, 'Phy': 63, 'Chem': 61, 'Bio': 67}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 60, 'Phy': 64, 'Chem': 62, 'Bio': 66},
+        utTwo: {'Maths': 60, 'Eng': 63, 'Phy': 62, 'Chem': 65, 'Bio': 67},
+        halfYearly:{'Maths': 67, 'Eng': 61, 'Phy': 69, 'Chem': 68, 'Bio': 68},
+        utThree: {'Maths': 61, 'Eng': 68, 'Phy': 71, 'Chem': 63, 'Bio': 69},
+        utFour: {'Maths': 65, 'Eng': 67, 'Phy': 66, 'Chem': 62, 'Bio': 64},
+        finalYearly :{'Maths': 68, 'Eng': 62, 'Phy': 70, 'Chem': 67, 'Bio': 62},
+        }
     },
     {
+        admnNo:2067,
         name: 'Kabir Singh',
         gender: 'M',
         age: 18,
@@ -676,9 +1196,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: true,
-        marks: {'Maths': 68, 'Eng': 59, 'Phy': 57, 'Chem': 69, 'Bio': 67}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 60, 'Phy': 66, 'Chem': 62, 'Bio': 66},
+        utTwo: {'Maths': 60, 'Eng': 65, 'Phy': 64, 'Chem': 65, 'Bio': 63},
+        halfYearly:{'Maths': 67, 'Eng': 67, 'Phy': 70, 'Chem': 68, 'Bio': 68},
+        utThree: {'Maths': 61, 'Eng': 69, 'Phy': 71, 'Chem': 63, 'Bio': 68},
+        utFour: {'Maths': 65, 'Eng': 64, 'Phy': 66, 'Chem': 62, 'Bio': 69},
+        finalYearly :{'Maths': 63, 'Eng': 64, 'Phy': 60, 'Chem': 67, 'Bio': 62},
+        }
     },
     {
+        admnNo:2068,
         name: 'Chetana Ahuja',
         gender: 'F',
         age: 17,
@@ -686,9 +1214,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 61, 'Eng': 60, 'Phy': 66, 'Chem': 67, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 66, 'Eng': 62, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        utTwo: {'Maths': 60, 'Eng': 95, 'Phy': 62, 'Chem': 61, 'Bio': null},
+        halfYearly:{'Maths': 67, 'Eng': 61, 'Phy': 60, 'Chem': 68, 'Bio': null},
+        utThree: {'Maths': 61, 'Eng': 64, 'Phy': 61, 'Chem': 63, 'Bio': null},
+        utFour: {'Maths': 65, 'Eng': 67, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        finalYearly :{'Maths': 68, 'Eng': 62, 'Phy': 70, 'Chem': 67, 'Bio': null},
+        }
     },
     {
+        admnNo:2069,
         name: 'Ganika Sharma',
         gender: 'F',
         age: 17,
@@ -696,9 +1232,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 64, 'Phy': 62, 'Chem': 61, 'Bio': 68}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 66, 'Chem': 62, 'Bio': 63},
+        utTwo: {'Maths': null, 'Eng': 65, 'Phy': 72, 'Chem': 65, 'Bio': 61},
+        halfYearly:{'Maths': null, 'Eng': 67, 'Phy': 60, 'Chem': 68, 'Bio': 62},
+        utThree: {'Maths': null, 'Eng': 66, 'Phy': 71, 'Chem': 63, 'Bio': 60},
+        utFour: {'Maths': null, 'Eng': 61, 'Phy': 66, 'Chem': 62, 'Bio': 68},
+        finalYearly :{'Maths': null, 'Eng': 63, 'Phy': 70, 'Chem': 67, 'Bio': 69},
+        }
     },
     {
+        admnNo:2070,
         name: 'Reeyansh Malik',
         gender: 'M',
         age: 18,
@@ -706,9 +1250,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 55, 'Phy': 59, 'Chem': 52, 'Bio': 51}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 66, 'Chem': 62, 'Bio': 65},
+        utTwo: {'Maths': null, 'Eng': 65, 'Phy': 62, 'Chem': 65, 'Bio': 62},
+        halfYearly:{'Maths': null, 'Eng': 67, 'Phy': 60, 'Chem': 68, 'Bio': 61},
+        utThree: {'Maths': null, 'Eng': 62, 'Phy': 61, 'Chem': 63, 'Bio': 69},
+        utFour: {'Maths': null, 'Eng': 63, 'Phy': 66, 'Chem': 61, 'Bio': 61},
+        finalYearly :{'Maths': null, 'Eng': 62, 'Phy': 60, 'Chem': 67, 'Bio': 68},
+        }
     },
     {
+        admnNo:2071,
         name: 'Rushil Chopra',
         gender: 'M',
         age: 17,
@@ -716,9 +1268,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 48, 'Eng': 49, 'Phy': 56, 'Chem': 51, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 56, 'Eng': 60, 'Phy': 56, 'Chem': 52, 'Bio': null},
+        utTwo: {'Maths': 60, 'Eng': 55, 'Phy': 52, 'Chem': 55, 'Bio': null},
+        halfYearly:{'Maths': 57, 'Eng': 57, 'Phy': 60, 'Chem': 58, 'Bio': null},
+        utThree: {'Maths': 51, 'Eng': 53, 'Phy': 51, 'Chem': 53, 'Bio': null},
+        utFour: {'Maths': 53, 'Eng': 51, 'Phy': 56, 'Chem': 52, 'Bio': null},
+        finalYearly :{'Maths': 58, 'Eng': 52, 'Phy': 60, 'Chem': 57, 'Bio': null},
+        }
     },
     {
+        admnNo:2072,
         name: 'Priyanka Chauhan',
         gender: 'F',
         age: 18,
@@ -726,9 +1286,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 49, 'Phy': 51, 'Chem': 57, 'Bio': 52}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 50, 'Phy': 56, 'Chem': 51, 'Bio': 51},
+        utTwo: {'Maths': null, 'Eng': 55, 'Phy': 57, 'Chem': 52, 'Bio': 52},
+        halfYearly:{'Maths': null, 'Eng': 57, 'Phy': 50, 'Chem': 58, 'Bio': 51},
+        utThree: {'Maths': null, 'Eng': 58, 'Phy': 51, 'Chem': 53, 'Bio': 52},
+        utFour: {'Maths': null, 'Eng': 52, 'Phy': 59, 'Chem': 52, 'Bio': 55},
+        finalYearly :{'Maths': null, 'Eng': 51, 'Phy': 52, 'Chem': 57, 'Bio': 53},
+        }
     },
     {
+        admnNo:2073,
         name: 'Anika Tomer',
         gender: 'F',
         age: 17,
@@ -736,9 +1304,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 57, 'Eng': 53, 'Phy': 50, 'Chem': 52, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 56, 'Eng': 60, 'Phy': 56, 'Chem': 52, 'Bio': 58},
+        utTwo: {'Maths': 60, 'Eng': 55, 'Phy': 52, 'Chem': 55, 'Bio': 59},
+        halfYearly:{'Maths': 56, 'Eng': 58, 'Phy': 60, 'Chem': 58, 'Bio': 53},
+        utThree: {'Maths': 51, 'Eng': 57, 'Phy': 61, 'Chem': 53, 'Bio': 59},
+        utFour: {'Maths': 55, 'Eng': 57, 'Phy': 56, 'Chem': 56, 'Bio': 57},
+        finalYearly :{'Maths': 52, 'Eng': 52, 'Phy': 50, 'Chem': 57, 'Bio': 53},
+        }
     },
     {
+        admnNo:2074,
         name: 'Rutvi Chopra',
         gender: 'F',
         age: 18,
@@ -746,9 +1322,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 51, 'Phy': 58, 'Chem': 53, 'Bio': 92}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 60, 'Phy': 56, 'Chem': 52, 'Bio': 57},
+        utTwo: {'Maths': null, 'Eng': 55, 'Phy': 52, 'Chem': 55, 'Bio': 58},
+        halfYearly:{'Maths': null, 'Eng': 57, 'Phy': 50, 'Chem': 58, 'Bio': 53},
+        utThree: {'Maths': null, 'Eng': 57, 'Phy': 51, 'Chem': 53, 'Bio': 51},
+        utFour: {'Maths': null, 'Eng': 57, 'Phy': 56, 'Chem': 52, 'Bio': 59},
+        finalYearly :{'Maths': null, 'Eng': 52, 'Phy': 50, 'Chem': 57, 'Bio': 54},
+        }
     },
     {
+        admnNo:2075,
         name: 'Yamini Malik',
         gender: 'F',
         age: 17,
@@ -756,9 +1340,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 58, 'Eng': 53, 'Phy': 57, 'Chem': 52, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 55, 'Eng': 50, 'Phy': 56, 'Chem': 52, 'Bio': null},
+        utTwo: {'Maths': 56, 'Eng': 55, 'Phy': 52, 'Chem': 55, 'Bio': null},
+        halfYearly:{'Maths': 57, 'Eng': 57, 'Phy': 60, 'Chem': 58, 'Bio': null},
+        utThree: {'Maths': 51, 'Eng': 56, 'Phy': 51, 'Chem': 53, 'Bio': null},
+        utFour: {'Maths': 55, 'Eng': 58, 'Phy': 56, 'Chem': 52, 'Bio': null},
+        finalYearly :{'Maths': 58, 'Eng': 52, 'Phy': 50, 'Chem': 57, 'Bio': null },
+        }
     },
     {
+        admnNo:2076,
         name: 'Sarthak Joshi',
         gender: 'M',
         age: 18,
@@ -766,9 +1358,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 52, 'Phy': 50, 'Chem': 56, 'Bio': 57}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 50, 'Phy': 56, 'Chem': 52, 'Bio': 52},
+        utTwo: {'Maths': null, 'Eng': 55, 'Phy': 52, 'Chem': 55, 'Bio': 58},
+        halfYearly:{'Maths': null, 'Eng': 57, 'Phy': 50, 'Chem': 58, 'Bio': 59},
+        utThree: {'Maths': null, 'Eng': 51, 'Phy': 51, 'Chem': 53, 'Bio': 58},
+        utFour: {'Maths': null, 'Eng': 52, 'Phy': 56, 'Chem': 51, 'Bio': 53},
+        finalYearly :{'Maths': null, 'Eng': 51, 'Phy': 50, 'Chem': 52, 'Bio': 51},
+        }
     },
     {
+        admnNo:2077,
         name: 'Yash Choudhary',
         gender: 'M',
         age: 19,
@@ -776,9 +1376,17 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 51, 'Eng': 55, 'Phy': 54, 'Chem': 58, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 56, 'Eng': 53, 'Phy': 57, 'Chem': 53, 'Bio': null},
+        utTwo: {'Maths': 60, 'Eng': 55, 'Phy': 53, 'Chem': 57, 'Bio': null},
+        halfYearly:{'Maths': 57, 'Eng': 57, 'Phy': 52, 'Chem': 58, 'Bio': null},
+        utThree: {'Maths': 51, 'Eng': 57, 'Phy': 51, 'Chem': 56, 'Bio': null},
+        utFour: {'Maths': 55, 'Eng': 57, 'Phy': 51, 'Chem': 51, 'Bio': null},
+        finalYearly :{'Maths': 56, 'Eng': 54, 'Phy': 55, 'Chem': 57, 'Bio': null},
+        }
     },
     {
+        admnNo:2078,
         name: 'Varsha Chauhan',
         gender: 'F',
         age: 17,
@@ -786,9 +1394,17 @@
         standard: 'XII',
         isOptedMaths: false,
         isOptedBio: true,
-        marks: {'Maths': null, 'Eng': 50, 'Phy': 59, 'Chem': 57, 'Bio': 52}
+        marks: {
+        utOne: {'Maths': null, 'Eng': 50, 'Phy': 56, 'Chem': 52, 'Bio': 56},
+        utTwo: {'Maths': null, 'Eng': 55, 'Phy': 52, 'Chem': 55, 'Bio': 53},
+        halfYearly:{'Maths': null, 'Eng': 57, 'Phy': 50, 'Chem': 58, 'Bio': 52},
+        utThree: {'Maths': null, 'Eng': 54, 'Phy': 51, 'Chem': 53, 'Bio': 58},
+        utFour: {'Maths': null, 'Eng': 53, 'Phy': 56, 'Chem': 52, 'Bio': 51},
+        finalYearly :{'Maths': null, 'Eng': 53, 'Phy': 58, 'Chem': 57, 'Bio': 52},
+        }
     },
     {
+        admnNo:2079,
         name: 'Tanvi Ahuja',
         gender: 'F',
         age: 18,
@@ -796,7 +1412,15 @@
         standard: 'XII',
         isOptedMaths: true,
         isOptedBio: false,
-        marks: {'Maths': 50, 'Eng': 49, 'Phy': 56, 'Chem': 52, 'Bio': null}
+        marks: {
+        utOne: {'Maths': 55, 'Eng': 60, 'Phy': 66, 'Chem': 62, 'Bio': null},
+        utTwo: {'Maths': 57, 'Eng': 55, 'Phy': 52, 'Chem': 55, 'Bio': null},
+        halfYearly:{'Maths': 54, 'Eng': 57, 'Phy': 50, 'Chem': 58, 'Bio': null},
+        utThree: {'Maths': 52, 'Eng': 58, 'Phy': 51, 'Chem': 53, 'Bio': null},
+        utFour: {'Maths': 51, 'Eng': 52, 'Phy': 56, 'Chem': 52, 'Bio': null},
+        finalYearly :{'Maths': 58, 'Eng': 59, 'Phy': 50, 'Chem': 57, 'Bio': null},
+        }
     },
 
 ]
+
