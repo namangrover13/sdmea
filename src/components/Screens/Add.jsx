@@ -1,11 +1,12 @@
 import React from 'react'
 import { connect } from 'react-redux';
 import { addStudent, clearAddStudent } from '../../store/actions/students/add-student';
+import AddForm from "../AddStudents";
 
 const Add = () => {
     return (
         <div>
-            This is Add Screen
+           <AddForm />
         </div>
     )
 }
