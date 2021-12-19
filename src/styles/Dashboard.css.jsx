@@ -14,6 +14,8 @@ export const useStyles = makeStyles((theme) => ({
         fontFamily: 'Cabin, sans-serif',  
         padding: 10,
         textAlign: 'left',
-        textTransform: 'uppercase'
+        textTransform: 'uppercase',
+        display:"flex",
+        justifyContent:'space-between'
     }
 }))

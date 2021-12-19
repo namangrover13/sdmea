@@ -12,8 +12,15 @@ import { ThemeProvider } from "@material-ui/core";
 import theme from "./constants/theme";
 import { Provider } from "react-redux";
 import store from "./store";
+import {useEffect} from "react";
+import {useAuthState} from "react-firebase-hooks/auth";
+import {auth} from "./firebaseConfig";
+import {useHistory} from "react-router-dom";
 
 function App() {
+
+    const [user, loading] = useAuthState(auth);
+
   return (
     <Provider store={store} >
     <ThemeProvider theme={theme}>

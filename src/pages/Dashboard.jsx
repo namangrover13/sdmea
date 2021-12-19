@@ -1,11 +1,23 @@
 import { Grid } from '@material-ui/core';
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import SidePanel from '../components/DashboardComponents/SidePanel';
 import { useStyles } from '../styles/Dashboard.css';
 import HomeDashboard from '../components/Screens/HomeDashboard';
-
+import {useAuthState} from "react-firebase-hooks/auth";
+import {auth} from "../firebaseConfig";
+import {useHistory} from "react-router-dom";
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 function Dashboard() {
     const classes = useStyles();
+    const  history =  useHistory();
+    const [user, loading] = useAuthState(auth);
+useEffect(()=>{
+if(!user) history.push('/auth')
+},[])
+function logout(){
+localStorage.clear();
+history.push('auth')
+}
     const [screenToRender, setScreenToRender] = useState(<HomeDashboard />);
     const [screenName, setScreenName] = useState("Home")
     return (
@@ -26,6 +38,8 @@ function Dashboard() {
             >
                <div className={classes.header}>
                    {screenName}
+                   <p className='_userEmail' style={{marginTop:'0',display:'flex'}}>Welcome {user?.email} <p style={{margin:'0 10px',cursor:'pointer'}} onClick={logout}><PowerSettingsNewIcon/></p></p>
+
                </div>
                <div className={classes.screenContent}>
                    {screenToRender}
