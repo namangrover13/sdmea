@@ -1,0 +1,4112 @@
+{
+  "marks": [
+    {
+      "admnNo": 2001,
+      "name": "Hrithik Ahuja",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 89,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 96,
+        "Eng": 90,
+        "Phy": 96,
+        "Chem": 92,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 90,
+        "Eng": 95,
+        "Phy": 92,
+        "Chem": 95,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 97,
+        "Eng": 87,
+        "Phy": 90,
+        "Chem": 88,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 91,
+        "Eng": 87,
+        "Phy": 91,
+        "Chem": 93,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 85,
+        "Eng": 87,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "final": {
+        "Math": 98,
+        "Eng": 92,
+        "Phy": 90,
+        "Chem": 97,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2002,
+      "name": "Rahul Sharma",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 78,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 88,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": 89
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 93,
+        "Phy": 97,
+        "Chem": 95,
+        "Bio": 90
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 87,
+        "Phy": 95,
+        "Chem": 88,
+        "Bio": 87
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 89,
+        "Phy": 92,
+        "Chem": 91,
+        "Bio": 96
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 91,
+        "Phy": 97,
+        "Chem": 85,
+        "Bio": 97
+      },
+      "final": {
+        "Math": null,
+        "Eng": 95,
+        "Phy": 90,
+        "Chem": 98,
+        "Bio": 95
+      }
+    },
+    {
+      "admnNo": 2003,
+      "name": "Meenu Saini",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 85,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 88,
+        "Eng": 80,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": 89
+      },
+      "utTwo": {
+        "Math": 90,
+        "Eng": 95,
+        "Phy": 92,
+        "Chem": 95,
+        "Bio": 97
+      },
+      "halfYearly": {
+        "Math": 89,
+        "Eng": 87,
+        "Phy": 90,
+        "Chem": 88,
+        "Bio": 95
+      },
+      "utThree": {
+        "Math": 86,
+        "Eng": 83,
+        "Phy": 81,
+        "Chem": 83,
+        "Bio": 89
+      },
+      "utFour": {
+        "Math": 90,
+        "Eng": 97,
+        "Phy": 92,
+        "Chem": 96,
+        "Bio": 93
+      },
+      "final": {
+        "Math": 88,
+        "Eng": 87,
+        "Phy": 81,
+        "Chem": 91,
+        "Bio": 90
+      }
+    },
+    {
+      "admnNo": 2004,
+      "name": "Rahul Chauhan",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 80,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 95,
+        "Eng": 93,
+        "Phy": 91,
+        "Chem": 92,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 86,
+        "Phy": 82,
+        "Chem": 88,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 94,
+        "Eng": 97,
+        "Phy": 90,
+        "Chem": 98,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 84,
+        "Eng": 85,
+        "Phy": 91,
+        "Chem": 83,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 96,
+        "Eng": 87,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "final": {
+        "Math": 95,
+        "Eng": 94,
+        "Phy": 92,
+        "Chem": 91,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2005,
+      "name": "Reetu Chauhan",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 90,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 96,
+        "Eng": 80,
+        "Phy": 86,
+        "Chem": 92,
+        "Bio": 98
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 95,
+        "Phy": 92,
+        "Chem": 85,
+        "Bio": 88
+      },
+      "halfYearly": {
+        "Math": 97,
+        "Eng": 87,
+        "Phy": 90,
+        "Chem": 98,
+        "Bio": 97
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 97,
+        "Phy": 81,
+        "Chem": 83,
+        "Bio": 87
+      },
+      "utFour": {
+        "Math": 93,
+        "Eng": 95,
+        "Phy": 96,
+        "Chem": 82,
+        "Bio": 94
+      },
+      "final": {
+        "Math": 83,
+        "Eng": 89,
+        "Phy": 90,
+        "Chem": 92,
+        "Bio": 84
+      }
+    },
+    {
+      "admnNo": 2006,
+      "name": "Shrey Jain",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 88,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 80,
+        "Phy": 96,
+        "Chem": 88,
+        "Bio": 89
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 95,
+        "Phy": 82,
+        "Chem": 95,
+        "Bio": 95
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 87,
+        "Phy": 80,
+        "Chem": 88,
+        "Bio": 83
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 94,
+        "Phy": 91,
+        "Chem": 93,
+        "Bio": 96
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 92,
+        "Phy": 86,
+        "Chem": 90,
+        "Bio": 81
+      },
+      "final": {
+        "Math": null,
+        "Eng": 85,
+        "Phy": 93,
+        "Chem": 87,
+        "Bio": 92
+      }
+    },
+    {
+      "admnNo": 2007,
+      "name": "Vidhi Solanki",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 87,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 80,
+        "Phy": 96,
+        "Chem": 84,
+        "Bio": 90
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 95,
+        "Phy": 82,
+        "Chem": 97,
+        "Bio": 83
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 84,
+        "Phy": 82,
+        "Chem": 88,
+        "Bio": 95
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 95,
+        "Phy": 92,
+        "Chem": 94,
+        "Bio": 84
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 84,
+        "Phy": 96,
+        "Chem": 82,
+        "Bio": 97
+      },
+      "final": {
+        "Math": null,
+        "Eng": 92,
+        "Phy": 89,
+        "Chem": 93,
+        "Bio": 88
+      }
+    },
+    {
+      "admnNo": 2008,
+      "name": "Harsh Choudhary",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 83,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 96,
+        "Eng": 90,
+        "Phy": 90,
+        "Chem": 93,
+        "Bio": 88
+      },
+      "utTwo": {
+        "Math": 89,
+        "Eng": 85,
+        "Phy": 83,
+        "Chem": 85,
+        "Bio": 92
+      },
+      "halfYearly": {
+        "Math": 97,
+        "Eng": 83,
+        "Phy": 87,
+        "Chem": 82,
+        "Bio": 87
+      },
+      "utThree": {
+        "Math": 84,
+        "Eng": 94,
+        "Phy": 95,
+        "Chem": 93,
+        "Bio": 94
+      },
+      "utFour": {
+        "Math": 95,
+        "Eng": 82,
+        "Phy": 95,
+        "Chem": 86,
+        "Bio": 85
+      },
+      "final": {
+        "Math": 88,
+        "Eng": 90,
+        "Phy": 83,
+        "Chem": 90,
+        "Bio": 96
+      }
+    },
+    {
+      "admnNo": 2009,
+      "name": "Himanshi Chauhan",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 86,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 86,
+        "Eng": 95,
+        "Phy": 88,
+        "Chem": 94,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 98,
+        "Eng": 80,
+        "Phy": 92,
+        "Chem": 80,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 85,
+        "Eng": 93,
+        "Phy": 83,
+        "Chem": 97,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 91,
+        "Eng": 87,
+        "Phy": 93,
+        "Chem": 83,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 84,
+        "Eng": 92,
+        "Phy": 89,
+        "Chem": 90,
+        "Bio": null
+      },
+      "final": {
+        "Math": 93,
+        "Eng": 82,
+        "Phy": 94,
+        "Chem": 86,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2010,
+      "name": "Ritesh Rastogi",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 77,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 88,
+        "Eng": 90,
+        "Phy": 86,
+        "Chem": 92,
+        "Bio": 98
+      },
+      "utTwo": {
+        "Math": 90,
+        "Eng": 95,
+        "Phy": 92,
+        "Chem": 85,
+        "Bio": 87
+      },
+      "halfYearly": {
+        "Math": 85,
+        "Eng": 96,
+        "Phy": 80,
+        "Chem": 98,
+        "Bio": 93
+      },
+      "utThree": {
+        "Math": 91,
+        "Eng": 87,
+        "Phy": 91,
+        "Chem": 83,
+        "Bio": 81
+      },
+      "utFour": {
+        "Math": 95,
+        "Eng": 97,
+        "Phy": 85,
+        "Chem": 97,
+        "Bio": 95
+      },
+      "final": {
+        "Math": 98,
+        "Eng": 82,
+        "Phy": 90,
+        "Chem": 87,
+        "Bio": 88
+      }
+    },
+    {
+      "admnNo": 2011,
+      "name": "Nidhi Bhanushali",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 71,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 80,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 70
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 75,
+        "Phy": 82,
+        "Chem": 85,
+        "Bio": 79
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 82,
+        "Phy": 70,
+        "Chem": 88,
+        "Bio": 82
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 81,
+        "Chem": 73,
+        "Bio": 75
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 84,
+        "Phy": 76,
+        "Chem": 82,
+        "Bio": 88
+      },
+      "final": {
+        "Math": null,
+        "Eng": 76,
+        "Phy": 83,
+        "Chem": 75,
+        "Bio": 77
+      }
+    },
+    {
+      "admnNo": 2012,
+      "name": "John Bhanushali",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 78,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 86,
+        "Chem": 73,
+        "Bio": 86
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 85,
+        "Phy": 72,
+        "Chem": 77,
+        "Bio": 71
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 81,
+        "Phy": 83,
+        "Chem": 80,
+        "Bio": 88
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": 79
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 84,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": 78
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": 80
+      }
+    },
+    {
+      "admnNo": 2013,
+      "name": "Vikrant Jain",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 76,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 72,
+        "Eng": 80,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 75,
+        "Phy": 72,
+        "Chem": 75,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 77,
+        "Eng": 81,
+        "Phy": 80,
+        "Chem": 88,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 76,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 75,
+        "Eng": 85,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "final": {
+        "Math": 83,
+        "Eng": 72,
+        "Phy": 71,
+        "Chem": 77,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2014,
+      "name": "Kritika Bagga",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 79,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 76,
+        "Eng": 80,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 77
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 75,
+        "Phy": 82,
+        "Chem": 85,
+        "Bio": 80
+      },
+      "halfYearly": {
+        "Math": 77,
+        "Eng": 77,
+        "Phy": 70,
+        "Chem": 78,
+        "Bio": 82
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 82,
+        "Phy": 81,
+        "Chem": 73,
+        "Bio": 74
+      },
+      "utFour": {
+        "Math": 75,
+        "Eng": 84,
+        "Phy": 76,
+        "Chem": 81,
+        "Bio": 78
+      },
+      "final": {
+        "Math": 83,
+        "Eng": 72,
+        "Phy": 80,
+        "Chem": 77,
+        "Bio": 84
+      }
+    },
+    {
+      "admnNo": 2015,
+      "name": "Neha Sharma",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 74,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 71
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 75,
+        "Phy": 72,
+        "Chem": 75,
+        "Bio": 78
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 74,
+        "Phy": 70,
+        "Chem": 80,
+        "Bio": 79
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 81,
+        "Phy": 82,
+        "Chem": 73,
+        "Bio": 72
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 80
+      },
+      "final": {
+        "Math": null,
+        "Eng": 82,
+        "Phy": 80,
+        "Chem": 75,
+        "Bio": 74
+      }
+    },
+    {
+      "admnNo": 2016,
+      "name": "Sunny Chauhan",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 73,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 71,
+        "Chem": 72,
+        "Bio": 70
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 75,
+        "Phy": 80,
+        "Chem": 77,
+        "Bio": 81
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 80,
+        "Phy": 74,
+        "Chem": 73,
+        "Bio": 71
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 71,
+        "Phy": 80,
+        "Chem": 77,
+        "Bio": 75
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 71,
+        "Chem": 79,
+        "Bio": 81
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 84,
+        "Chem": 81,
+        "Bio": 73
+      }
+    },
+    {
+      "admnNo": 2017,
+      "name": "Himanshi Singh",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 70,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 77,
+        "Eng": 70,
+        "Phy": 85,
+        "Chem": 72,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 76,
+        "Phy": 72,
+        "Chem": 75,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 74,
+        "Eng": 80,
+        "Phy": 81,
+        "Chem": 78,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 75,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 70,
+        "Eng": 76,
+        "Phy": 78,
+        "Chem": 72,
+        "Bio": null
+      },
+      "final": {
+        "Math": 78,
+        "Eng": 83,
+        "Phy": 73,
+        "Chem": 80,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2018,
+      "name": "Ramesh Sharma",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 74,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 77,
+        "Chem": 72,
+        "Bio": 78
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 82,
+        "Chem": 75,
+        "Bio": 77
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 82,
+        "Phy": 70,
+        "Chem": 78,
+        "Bio": 71
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 81,
+        "Chem": 83,
+        "Bio": 80
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 80,
+        "Phy": 76,
+        "Chem": 76,
+        "Bio": 72
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": 73
+      }
+    },
+    {
+      "admnNo": 2019,
+      "name": "Shivani Rastogi",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 72,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 71,
+        "Eng": 70,
+        "Phy": 78,
+        "Chem": 72,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 75,
+        "Phy": 92,
+        "Chem": 82,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 77,
+        "Eng": 77,
+        "Phy": 80,
+        "Chem": 71,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 78,
+        "Eng": 71,
+        "Phy": 71,
+        "Chem": 77,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 75,
+        "Eng": 80,
+        "Phy": 76,
+        "Chem": 78,
+        "Bio": null
+      },
+      "final": {
+        "Math": 70,
+        "Eng": 72,
+        "Phy": 80,
+        "Chem": 79,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2020,
+      "name": "Kapil Sharma",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 68,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 79,
+        "Phy": 76,
+        "Chem": 80,
+        "Bio": 77
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 71,
+        "Phy": 72,
+        "Chem": 71,
+        "Bio": 72
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": 71
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": 74
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 73
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": 76
+      }
+    },
+    {
+      "admnNo": 2021,
+      "name": "Mehak Malik",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 67,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 66,
+        "Eng": 67,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 70,
+        "Eng": 77,
+        "Phy": 72,
+        "Chem": 65,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 70,
+        "Eng": 77,
+        "Phy": 70,
+        "Chem": 68,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 60,
+        "Eng": 65,
+        "Phy": 69,
+        "Chem": 63,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 63,
+        "Eng": 69,
+        "Phy": 72,
+        "Chem": 71,
+        "Bio": null
+      },
+      "final": {
+        "Math": 67,
+        "Eng": 68,
+        "Phy": 70,
+        "Chem": 67,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2022,
+      "name": "Raghav Malik",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 69,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 68,
+        "Phy": 66,
+        "Chem": 72,
+        "Bio": 78
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 74,
+        "Phy": 72,
+        "Chem": 69,
+        "Bio": 68
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 70,
+        "Chem": 68,
+        "Bio": 69
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 74,
+        "Phy": 71,
+        "Chem": 65,
+        "Bio": 62
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 76,
+        "Chem": 63,
+        "Bio": 69
+      },
+      "final": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 70,
+        "Chem": 74,
+        "Bio": 70
+      }
+    },
+    {
+      "admnNo": 2023,
+      "name": "Prachi Sharma",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 65,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 66,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 72,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 70,
+        "Eng": 75,
+        "Phy": 72,
+        "Chem": 65,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 67,
+        "Eng": 67,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 71,
+        "Eng": 77,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 63,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": null
+      },
+      "final": {
+        "Math": 74,
+        "Eng": 67,
+        "Phy": 78,
+        "Chem": 67,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2024,
+      "name": "Rishabh Rastogi",
+      "gender": "M",
+      "age": 16,
+      "tenthPercent": 64,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 72,
+        "Bio": 67
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 75,
+        "Phy": 72,
+        "Chem": 75,
+        "Bio": 77
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 65,
+        "Phy": 70,
+        "Chem": 78,
+        "Bio": 66
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 66,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": 77
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 66,
+        "Chem": 72,
+        "Bio": 67
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 70,
+        "Chem": 66,
+        "Bio": 68
+      }
+    },
+    {
+      "admnNo": 2025,
+      "name": "Janvi Malik",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 62,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 66,
+        "Eng": 60,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 70,
+        "Eng": 75,
+        "Phy": 62,
+        "Chem": 65,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 67,
+        "Eng": 68,
+        "Phy": 69,
+        "Chem": 70,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 71,
+        "Eng": 67,
+        "Phy": 61,
+        "Chem": 63,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 77,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "final": {
+        "Math": 68,
+        "Eng": 62,
+        "Phy": 69,
+        "Chem": 67,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2026,
+      "name": "Nishant Sharma",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 67,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 74,
+        "Chem": 62,
+        "Bio": 67
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 75,
+        "Phy": 62,
+        "Chem": 75,
+        "Bio": 74
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 70,
+        "Chem": 68,
+        "Bio": 62
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 61,
+        "Chem": 73,
+        "Bio": 63
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 75
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": 74
+      }
+    },
+    {
+      "admnNo": 2027,
+      "name": "Madan Sharma",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 63,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 67,
+        "Eng": 70,
+        "Phy": 66,
+        "Chem": 67,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 63,
+        "Eng": 65,
+        "Phy": 67,
+        "Chem": 77,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 66,
+        "Eng": 72,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 71,
+        "Eng": 64,
+        "Phy": 62,
+        "Chem": 61,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 75,
+        "Eng": 65,
+        "Phy": 66,
+        "Chem": 72,
+        "Bio": null
+      },
+      "final": {
+        "Math": 68,
+        "Eng": 72,
+        "Phy": 60,
+        "Chem": 74,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2028,
+      "name": "Khushi Chauhan",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 66,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 72,
+        "Chem": 72,
+        "Bio": 68
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 65,
+        "Phy": 62,
+        "Chem": 65,
+        "Bio": 69
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 68,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": 67
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 69,
+        "Phy": 71,
+        "Chem": 63,
+        "Bio": 70
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 64,
+        "Phy": 76,
+        "Chem": 62,
+        "Bio": 71
+      },
+      "final": {
+        "Math": null,
+        "Eng": 69,
+        "Phy": 70,
+        "Chem": 67,
+        "Bio": 70
+      }
+    },
+    {
+      "admnNo": 2029,
+      "name": "Muskan Choudhary",
+      "gender": "f",
+      "age": 17,
+      "tenthPercent": 51,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 66,
+        "Eng": 70,
+        "Phy": 66,
+        "Chem": 72,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 70,
+        "Eng": 65,
+        "Phy": 72,
+        "Chem": 65,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 67,
+        "Eng": 67,
+        "Phy": 70,
+        "Chem": 68,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 71,
+        "Eng": 67,
+        "Phy": 71,
+        "Chem": 69,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 65,
+        "Phy": 66,
+        "Chem": 70,
+        "Bio": null
+      },
+      "final": {
+        "Math": 68,
+        "Eng": 72,
+        "Phy": 60,
+        "Chem": 67,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2030,
+      "name": "Himanshu Sharma",
+      "gender": "M",
+      "age": 16,
+      "tenthPercent": 55,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 70,
+        "Chem": 62,
+        "Bio": 67
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 65,
+        "Phy": 66,
+        "Chem": 75,
+        "Bio": 68
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": 69
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 73,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": 70
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 71,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 71
+      },
+      "final": {
+        "Math": null,
+        "Eng": 71,
+        "Phy": 70,
+        "Chem": 67,
+        "Bio": 72
+      }
+    },
+    {
+      "admnNo": 2031,
+      "name": "Hrithik Jain",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 58,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 55,
+        "Eng": 66,
+        "Phy": 56,
+        "Chem": 62,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 68,
+        "Phy": 62,
+        "Chem": 55,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 57,
+        "Eng": 67,
+        "Phy": 50,
+        "Chem": 58,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 61,
+        "Eng": 57,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 55,
+        "Eng": 67,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "final": {
+        "Math": 58,
+        "Eng": 52,
+        "Phy": 60,
+        "Chem": 57,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2032,
+      "name": "Rashmi Tomer",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 53,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 56,
+        "Phy": 66,
+        "Chem": 52,
+        "Bio": 66
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 68,
+        "Phy": 65,
+        "Chem": 64,
+        "Bio": 67
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 66,
+        "Chem": 68,
+        "Bio": 63
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 67,
+        "Chem": 63,
+        "Bio": 67
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 66,
+        "Chem": 58,
+        "Bio": 57
+      },
+      "final": {
+        "Math": null,
+        "Eng": 58,
+        "Phy": 57,
+        "Chem": 58,
+        "Bio": 58
+      }
+    },
+    {
+      "admnNo": 2033,
+      "name": "Ridhi Chauhan",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 54,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 56,
+        "Eng": 55,
+        "Phy": 66,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 65,
+        "Phy": 52,
+        "Chem": 67,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 57,
+        "Eng": 67,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 61,
+        "Eng": 57,
+        "Phy": 61,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 67,
+        "Phy": 56,
+        "Chem": 62,
+        "Bio": null
+      },
+      "final": {
+        "Math": 58,
+        "Eng": 62,
+        "Phy": 60,
+        "Chem": 57,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2034,
+      "name": "Rohit Sharma",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 59,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 52
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 65,
+        "Bio": 58
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 60,
+        "Chem": 58,
+        "Bio": 59
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 59,
+        "Phy": 61,
+        "Chem": 63,
+        "Bio": 58
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 58,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 61
+      },
+      "final": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 60,
+        "Chem": 57,
+        "Bio": 62
+      }
+    },
+    {
+      "admnNo": 2035,
+      "name": "Bhoumik Chauahan",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 59,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 58,
+        "Eng": 50,
+        "Phy": 56,
+        "Chem": 62,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 65,
+        "Phy": 62,
+        "Chem": 55,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 57,
+        "Eng": 57,
+        "Phy": 60,
+        "Chem": 58,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 61,
+        "Eng": 58,
+        "Phy": 61,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 59,
+        "Phy": 56,
+        "Chem": 62,
+        "Bio": null
+      },
+      "final": {
+        "Math": 58,
+        "Eng": 62,
+        "Phy": 60,
+        "Chem": 57,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2036,
+      "name": "Ajay Sharma",
+      "gender": "M",
+      "age": 16,
+      "tenthPercent": 58,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 58,
+        "Phy": 56,
+        "Chem": 62,
+        "Bio": 59
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 55,
+        "Phy": 62,
+        "Chem": 55,
+        "Bio": 62
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 60,
+        "Chem": 58,
+        "Bio": 61
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 68,
+        "Phy": 62,
+        "Chem": 64,
+        "Bio": 58
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 63,
+        "Chem": 62,
+        "Bio": 53
+      },
+      "final": {
+        "Math": null,
+        "Eng": 61,
+        "Phy": 59,
+        "Chem": 57,
+        "Bio": 51
+      }
+    },
+    {
+      "admnNo": 2037,
+      "name": "Deepika Rastogi",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 57,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 66,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 61,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 53,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 57,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 60,
+        "Eng": 60,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 56,
+        "Eng": 57,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 59,
+        "Phy": 59,
+        "Chem": 58,
+        "Bio": null
+      },
+      "final": {
+        "Math": 68,
+        "Eng": 52,
+        "Phy": 60,
+        "Chem": 23,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2038,
+      "name": "Yogita Sharma",
+      "gender": "F",
+      "age": 16,
+      "tenthPercent": 56,
+      "standard": "XI",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 56,
+        "Chem": 62,
+        "Bio": 58
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 55,
+        "Bio": 51
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 59,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": 52
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": 54
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 61,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 55
+      },
+      "final": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 60,
+        "Chem": 57,
+        "Bio": 58
+      }
+    },
+    {
+      "admnNo": 2039,
+      "name": "Komal Ahuja",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 53,
+      "standard": "XI",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 56,
+        "Eng": 60,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 57,
+        "Eng": 55,
+        "Phy": 62,
+        "Chem": 55,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 58,
+        "Eng": 58,
+        "Phy": 60,
+        "Chem": 58,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 61,
+        "Eng": 59,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 55,
+        "Eng": 60,
+        "Phy": 56,
+        "Chem": 62,
+        "Bio": null
+      },
+      "final": {
+        "Math": 58,
+        "Eng": 52,
+        "Phy": 50,
+        "Chem": 57,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2040,
+      "name": "Richa Sharma",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 88,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 52,
+        "Bio": 55
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 65,
+        "Bio": 58
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 50,
+        "Chem": 58,
+        "Bio": 51
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 61,
+        "Chem": 53,
+        "Bio": 59
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 59,
+        "Phy": 56,
+        "Chem": 62,
+        "Bio": 61
+      },
+      "final": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 60,
+        "Chem": 57,
+        "Bio": 62
+      }
+    },
+    {
+      "admnNo": 2041,
+      "name": "Paras Chauhan",
+      "gender": "M",
+      "age": 19,
+      "tenthPercent": 89,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 90,
+        "Eng": 95,
+        "Phy": 88,
+        "Chem": 92,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 87,
+        "Phy": 92,
+        "Chem": 95,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 97,
+        "Eng": 87,
+        "Phy": 90,
+        "Chem": 88,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 97,
+        "Phy": 81,
+        "Chem": 90,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 95,
+        "Eng": 85,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "final": {
+        "Math": 88,
+        "Eng": 92,
+        "Phy": 90,
+        "Chem": 97,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2042,
+      "name": "Rohan Choudhary",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 88,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 89,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": 98
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 95,
+        "Phy": 92,
+        "Chem": 95,
+        "Bio": 93
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 81,
+        "Phy": 90,
+        "Chem": 88,
+        "Bio": 91
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 97,
+        "Phy": 95,
+        "Chem": 93,
+        "Bio": 90
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 86,
+        "Phy": 86,
+        "Chem": 85,
+        "Bio": 89
+      },
+      "final": {
+        "Math": null,
+        "Eng": 92,
+        "Phy": 95,
+        "Chem": 87,
+        "Bio": 82
+      }
+    },
+    {
+      "admnNo": 2043,
+      "name": "Tanisha Tomer",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 84,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 91,
+        "Eng": 82,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 98,
+        "Eng": 95,
+        "Phy": 92,
+        "Chem": 95,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 88,
+        "Eng": 83,
+        "Phy": 84,
+        "Chem": 88,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 84,
+        "Eng": 81,
+        "Phy": 81,
+        "Chem": 83,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 90,
+        "Eng": 90,
+        "Phy": 95,
+        "Chem": 92,
+        "Bio": null
+      },
+      "final": {
+        "Math": 92,
+        "Eng": 82,
+        "Phy": 80,
+        "Chem": 87,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2044,
+      "name": "Ronak Rastogi",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 83,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 93,
+        "Phy": 86,
+        "Chem": 92,
+        "Bio": 87
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 85,
+        "Phy": 92,
+        "Chem": 85,
+        "Bio": 88
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 97,
+        "Phy": 93,
+        "Chem": 88,
+        "Bio": 81
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 82,
+        "Phy": 81,
+        "Chem": 83,
+        "Bio": 86
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 97,
+        "Phy": 96,
+        "Chem": 92,
+        "Bio": 89
+      },
+      "final": {
+        "Math": null,
+        "Eng": 82,
+        "Phy": 85,
+        "Chem": 87,
+        "Bio": 93
+      }
+    },
+    {
+      "admnNo": 2045,
+      "name": "Bhavika Arora",
+      "gender": "F",
+      "age": 19,
+      "tenthPercent": 80,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 86,
+        "Eng": 93,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 90,
+        "Eng": 85,
+        "Phy": 92,
+        "Chem": 95,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 87,
+        "Eng": 92,
+        "Phy": 89,
+        "Chem": 95,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 92,
+        "Eng": 97,
+        "Phy": 81,
+        "Chem": 83,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 95,
+        "Eng": 88,
+        "Phy": 86,
+        "Chem": 92,
+        "Bio": null
+      },
+      "final": {
+        "Math": 88,
+        "Eng": 91,
+        "Phy": 87,
+        "Chem": 88,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2046,
+      "name": "Abdul Mogni",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 88,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 98,
+        "Eng": 80,
+        "Phy": 86,
+        "Chem": 92,
+        "Bio": 94
+      },
+      "utTwo": {
+        "Math": 90,
+        "Eng": 91,
+        "Phy": 92,
+        "Chem": 85,
+        "Bio": 92
+      },
+      "halfYearly": {
+        "Math": 93,
+        "Eng": 87,
+        "Phy": 90,
+        "Chem": 88,
+        "Bio": 91
+      },
+      "utThree": {
+        "Math": 89,
+        "Eng": 90,
+        "Phy": 81,
+        "Chem": 83,
+        "Bio": 90
+      },
+      "utFour": {
+        "Math": 92,
+        "Eng": 88,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": 96
+      },
+      "final": {
+        "Math": 83,
+        "Eng": 82,
+        "Phy": 90,
+        "Chem": 95,
+        "Bio": 94
+      }
+    },
+    {
+      "admnNo": 2047,
+      "name": "Naina Bhalla",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 83,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 96,
+        "Eng": 90,
+        "Phy": 96,
+        "Chem": 92,
+        "Bio": 98
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 85,
+        "Phy": 82,
+        "Chem": 85,
+        "Bio": 94
+      },
+      "halfYearly": {
+        "Math": 97,
+        "Eng": 87,
+        "Phy": 90,
+        "Chem": 88,
+        "Bio": 91
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 92,
+        "Phy": 82,
+        "Chem": 83,
+        "Bio": 90
+      },
+      "utFour": {
+        "Math": 85,
+        "Eng": 97,
+        "Phy": 96,
+        "Chem": 92,
+        "Bio": 89
+      },
+      "final": {
+        "Math": 88,
+        "Eng": 82,
+        "Phy": 80,
+        "Chem": 87,
+        "Bio": 87
+      }
+    },
+    {
+      "admnNo": 2048,
+      "name": "Bharat Pandey",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 82,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 93,
+        "Phy": 89,
+        "Chem": 82,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 98,
+        "Phy": 82,
+        "Chem": 85,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 94,
+        "Phy": 96,
+        "Chem": 98,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 91,
+        "Phy": 91,
+        "Chem": 93,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 89,
+        "Phy": 87,
+        "Chem": 88,
+        "Bio": null
+      },
+      "final": {
+        "Math": null,
+        "Eng": 92,
+        "Phy": 91,
+        "Chem": 93,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2049,
+      "name": "Parul Srivastav",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 85,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 86,
+        "Eng": 80,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 90,
+        "Eng": 95,
+        "Phy": 92,
+        "Chem": 85,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 87,
+        "Eng": 97,
+        "Phy": 80,
+        "Chem": 88,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 82,
+        "Phy": 91,
+        "Chem": 83,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 95,
+        "Eng": 92,
+        "Phy": 96,
+        "Chem": 82,
+        "Bio": null
+      },
+      "final": {
+        "Math": 88,
+        "Eng": 82,
+        "Phy": 80,
+        "Chem": 87,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2050,
+      "name": "Aman Kumar",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 77,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 90,
+        "Phy": 86,
+        "Chem": 92,
+        "Bio": 89
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 85,
+        "Phy": 92,
+        "Chem": 95,
+        "Bio": 85
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 97,
+        "Phy": 90,
+        "Chem": 88,
+        "Bio": 90
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 88,
+        "Phy": 81,
+        "Chem": 83,
+        "Bio": 87
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 91,
+        "Phy": 86,
+        "Chem": 92,
+        "Bio": 92
+      },
+      "final": {
+        "Math": null,
+        "Eng": 82,
+        "Phy": 91,
+        "Chem": 99,
+        "Bio": 97
+      }
+    },
+    {
+      "admnNo": 2051,
+      "name": "Richa Mishra",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 74,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 76,
+        "Eng": 70,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 85,
+        "Phy": 72,
+        "Chem": 75,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 77,
+        "Eng": 77,
+        "Phy": 80,
+        "Chem": 79,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 77,
+        "Phy": 74,
+        "Chem": 73,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 75,
+        "Eng": 77,
+        "Phy": 86,
+        "Chem": 82,
+        "Bio": null
+      },
+      "final": {
+        "Math": 78,
+        "Eng": 82,
+        "Phy": 70,
+        "Chem": 71,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2052,
+      "name": "Shiv Narayan",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 76,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 76,
+        "Eng": 77,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 71
+      },
+      "utTwo": {
+        "Math": 79,
+        "Eng": 75,
+        "Phy": 72,
+        "Chem": 75,
+        "Bio": 78
+      },
+      "halfYearly": {
+        "Math": 83,
+        "Eng": 70,
+        "Phy": 80,
+        "Chem": 78,
+        "Bio": 79
+      },
+      "utThree": {
+        "Math": 71,
+        "Eng": 71,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": 81
+      },
+      "utFour": {
+        "Math": 76,
+        "Eng": 77,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 82
+      },
+      "final": {
+        "Math": 78,
+        "Eng": 72,
+        "Phy": 80,
+        "Chem": 77,
+        "Bio": 75
+      }
+    },
+    {
+      "admnNo": 2053,
+      "name": "Ayushi Joshi",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 79,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 76,
+        "Eng": 80,
+        "Phy": 76,
+        "Chem": 81,
+        "Bio": 77
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 71,
+        "Phy": 82,
+        "Chem": 75,
+        "Bio": 72
+      },
+      "halfYearly": {
+        "Math": 77,
+        "Eng": 72,
+        "Phy": 80,
+        "Chem": 78,
+        "Bio": 74
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 72,
+        "Phy": 81,
+        "Chem": 73,
+        "Bio": 76
+      },
+      "utFour": {
+        "Math": 75,
+        "Eng": 77,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 78
+      },
+      "final": {
+        "Math": 79,
+        "Eng": 72,
+        "Phy": 80,
+        "Chem": 77,
+        "Bio": 73
+      }
+    },
+    {
+      "admnNo": 2054,
+      "name": "Jai Kumar",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 75,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 80,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 79
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 75,
+        "Phy": 82,
+        "Chem": 75,
+        "Bio": 71
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 80,
+        "Chem": 78,
+        "Bio": 74
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 81,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": 75
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 76,
+        "Chem": 82,
+        "Bio": 72
+      },
+      "final": {
+        "Math": null,
+        "Eng": 79,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": 78
+      }
+    },
+    {
+      "admnNo": 2055,
+      "name": "Esha Mishra",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 72,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 78
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 85,
+        "Phy": 72,
+        "Chem": 75,
+        "Bio": 79
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 75,
+        "Phy": 80,
+        "Chem": 78,
+        "Bio": 71
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 71,
+        "Phy": 71,
+        "Chem": 83,
+        "Bio": 79
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 77
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 80,
+        "Chem": 81,
+        "Bio": 72
+      }
+    },
+    {
+      "admnNo": 2056,
+      "name": "Pranjal Tiwari",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 79,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 76,
+        "Eng": 80,
+        "Phy": 86,
+        "Chem": 72,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 70,
+        "Eng": 75,
+        "Phy": 72,
+        "Chem": 85,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 77,
+        "Eng": 79,
+        "Phy": 80,
+        "Chem": 78,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 81,
+        "Eng": 73,
+        "Phy": 71,
+        "Chem": 81,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 85,
+        "Eng": 75,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": null
+      },
+      "final": {
+        "Math": 78,
+        "Eng": 82,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2057,
+      "name": "Pooja Chauahn",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 73,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 80,
+        "Phy": 76,
+        "Chem": 71,
+        "Bio": 73
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 73,
+        "Phy": 74,
+        "Chem": 75,
+        "Bio": 77
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 71,
+        "Phy": 70,
+        "Chem": 78,
+        "Bio": 72
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 73,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": 70
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 74,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 79
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": 78
+      }
+    },
+    {
+      "admnNo": 2058,
+      "name": "Sanjeev Sahani",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 79,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 76,
+        "Eng": 80,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 70,
+        "Eng": 75,
+        "Phy": 71,
+        "Chem": 70,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 76,
+        "Eng": 74,
+        "Phy": 70,
+        "Chem": 78,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 71,
+        "Eng": 73,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 75,
+        "Eng": 72,
+        "Phy": 81,
+        "Chem": 72,
+        "Bio": null
+      },
+      "final": {
+        "Math": 78,
+        "Eng": 72,
+        "Phy": 70,
+        "Chem": 77,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2059,
+      "name": "Priya Malik",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 72,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 77,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 77
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 75,
+        "Phy": 72,
+        "Chem": 75,
+        "Bio": 72
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 74,
+        "Phy": 80,
+        "Chem": 78,
+        "Bio": 70
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 71,
+        "Phy": 71,
+        "Chem": 73,
+        "Bio": 71
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 73,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": 73
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 80,
+        "Chem": 77,
+        "Bio": 78
+      }
+    },
+    {
+      "admnNo": 2060,
+      "name": "Vishant Sharma",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 69,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 76,
+        "Eng": 70,
+        "Phy": 72,
+        "Chem": 73,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 80,
+        "Eng": 75,
+        "Phy": 77,
+        "Chem": 76,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 73,
+        "Eng": 77,
+        "Phy": 80,
+        "Chem": 78,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 74,
+        "Eng": 75,
+        "Phy": 81,
+        "Chem": 73,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 75,
+        "Eng": 73,
+        "Phy": 76,
+        "Chem": 72,
+        "Bio": null
+      },
+      "final": {
+        "Math": 78,
+        "Eng": 72,
+        "Phy": 80,
+        "Chem": 75,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2061,
+      "name": "Vishal Pandey",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 67,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 67,
+        "Chem": 68,
+        "Bio": 62
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 65,
+        "Phy": 72,
+        "Chem": 65,
+        "Bio": 66
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": 67
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 61,
+        "Chem": 63,
+        "Bio": 68
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 69,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 69
+      },
+      "final": {
+        "Math": null,
+        "Eng": 72,
+        "Phy": 68,
+        "Chem": 67,
+        "Bio": 64
+      }
+    },
+    {
+      "admnNo": 2062,
+      "name": "Aaradhya Ahuja",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 68,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 66,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 70,
+        "Eng": 69,
+        "Phy": 62,
+        "Chem": 64,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 67,
+        "Eng": 67,
+        "Phy": 70,
+        "Chem": 62,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 71,
+        "Eng": 63,
+        "Phy": 61,
+        "Chem": 63,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 70,
+        "Eng": 61,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "final": {
+        "Math": 68,
+        "Eng": 69,
+        "Phy": 68,
+        "Chem": 63,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2063,
+      "name": "Aarav Joshi",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 64,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 62
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 65,
+        "Phy": 62,
+        "Chem": 65,
+        "Bio": 61
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 70,
+        "Chem": 68,
+        "Bio": 62
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 63,
+        "Phy": 61,
+        "Chem": 63,
+        "Bio": 69
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 68
+      },
+      "final": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 60,
+        "Chem": 67,
+        "Bio": 63
+      }
+    },
+    {
+      "admnNo": 2064,
+      "name": "Kayra Chauhan",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 65,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 66,
+        "Eng": 70,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 70,
+        "Eng": 65,
+        "Phy": 72,
+        "Chem": 65,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 67,
+        "Eng": 67,
+        "Phy": 90,
+        "Chem": 68,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 61,
+        "Eng": 62,
+        "Phy": 61,
+        "Chem": 63,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 61,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "final": {
+        "Math": 68,
+        "Eng": 62,
+        "Phy": 70,
+        "Chem": 67,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2065,
+      "name": "Mahira Sharma",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 64,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 70,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 68
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 65,
+        "Phy": 62,
+        "Chem": 65,
+        "Bio": 67
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 70,
+        "Chem": 63,
+        "Bio": 66
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 63,
+        "Phy": 71,
+        "Chem": 62,
+        "Bio": 61
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 61,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 62
+      },
+      "final": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 69,
+        "Chem": 61,
+        "Bio": 65
+      }
+    },
+    {
+      "admnNo": 2066,
+      "name": "Laksh Choudhary",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 65,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 66,
+        "Eng": 60,
+        "Phy": 64,
+        "Chem": 62,
+        "Bio": 66
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 63,
+        "Phy": 62,
+        "Chem": 65,
+        "Bio": 67
+      },
+      "halfYearly": {
+        "Math": 67,
+        "Eng": 61,
+        "Phy": 69,
+        "Chem": 68,
+        "Bio": 68
+      },
+      "utThree": {
+        "Math": 61,
+        "Eng": 68,
+        "Phy": 71,
+        "Chem": 63,
+        "Bio": 69
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 67,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 64
+      },
+      "final": {
+        "Math": 68,
+        "Eng": 62,
+        "Phy": 70,
+        "Chem": 67,
+        "Bio": 62
+      }
+    },
+    {
+      "admnNo": 2067,
+      "name": "Kabir Singh",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 63,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": 66,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 66
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 65,
+        "Phy": 64,
+        "Chem": 65,
+        "Bio": 63
+      },
+      "halfYearly": {
+        "Math": 67,
+        "Eng": 67,
+        "Phy": 70,
+        "Chem": 68,
+        "Bio": 68
+      },
+      "utThree": {
+        "Math": 61,
+        "Eng": 69,
+        "Phy": 71,
+        "Chem": 63,
+        "Bio": 68
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 64,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 69
+      },
+      "final": {
+        "Math": 63,
+        "Eng": 64,
+        "Phy": 60,
+        "Chem": 67,
+        "Bio": 62
+      }
+    },
+    {
+      "admnNo": 2068,
+      "name": "Chetana Ahuja",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 64,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 66,
+        "Eng": 62,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 95,
+        "Phy": 62,
+        "Chem": 61,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 67,
+        "Eng": 61,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 61,
+        "Eng": 64,
+        "Phy": 61,
+        "Chem": 63,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 65,
+        "Eng": 67,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "final": {
+        "Math": 68,
+        "Eng": 62,
+        "Phy": 70,
+        "Chem": 67,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2069,
+      "name": "Ganika Sharma",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 62,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 63
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 65,
+        "Phy": 72,
+        "Chem": 65,
+        "Bio": 61
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": 62
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 66,
+        "Phy": 71,
+        "Chem": 63,
+        "Bio": 60
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 61,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 68
+      },
+      "final": {
+        "Math": null,
+        "Eng": 63,
+        "Phy": 70,
+        "Chem": 67,
+        "Bio": 69
+      }
+    },
+    {
+      "admnNo": 2070,
+      "name": "Reeyansh Malik",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 58,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": 65
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 65,
+        "Phy": 62,
+        "Chem": 65,
+        "Bio": 62
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 67,
+        "Phy": 60,
+        "Chem": 68,
+        "Bio": 61
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 61,
+        "Chem": 63,
+        "Bio": 69
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 63,
+        "Phy": 66,
+        "Chem": 61,
+        "Bio": 61
+      },
+      "final": {
+        "Math": null,
+        "Eng": 62,
+        "Phy": 60,
+        "Chem": 67,
+        "Bio": 68
+      }
+    },
+    {
+      "admnNo": 2071,
+      "name": "Rushil Chopra",
+      "gender": "M",
+      "age": 17,
+      "tenthPercent": 59,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 56,
+        "Eng": 60,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 55,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 57,
+        "Eng": 57,
+        "Phy": 60,
+        "Chem": 58,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 51,
+        "Eng": 53,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 53,
+        "Eng": 51,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": null
+      },
+      "final": {
+        "Math": 58,
+        "Eng": 52,
+        "Phy": 60,
+        "Chem": 57,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2072,
+      "name": "Priyanka Chauhan",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 53,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 50,
+        "Phy": 56,
+        "Chem": 51,
+        "Bio": 51
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 55,
+        "Phy": 57,
+        "Chem": 52,
+        "Bio": 52
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 50,
+        "Chem": 58,
+        "Bio": 51
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 58,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": 52
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 52,
+        "Phy": 59,
+        "Chem": 52,
+        "Bio": 55
+      },
+      "final": {
+        "Math": null,
+        "Eng": 51,
+        "Phy": 52,
+        "Chem": 57,
+        "Bio": 53
+      }
+    },
+    {
+      "admnNo": 2073,
+      "name": "Anika Tomer",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 55,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 56,
+        "Eng": 60,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 58
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 55,
+        "Bio": 59
+      },
+      "halfYearly": {
+        "Math": 56,
+        "Eng": 58,
+        "Phy": 60,
+        "Chem": 58,
+        "Bio": 53
+      },
+      "utThree": {
+        "Math": 51,
+        "Eng": 57,
+        "Phy": 61,
+        "Chem": 53,
+        "Bio": 59
+      },
+      "utFour": {
+        "Math": 55,
+        "Eng": 57,
+        "Phy": 56,
+        "Chem": 56,
+        "Bio": 57
+      },
+      "final": {
+        "Math": 52,
+        "Eng": 52,
+        "Phy": 50,
+        "Chem": 57,
+        "Bio": 53
+      }
+    },
+    {
+      "admnNo": 2074,
+      "name": "Rutvi Chopra",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 56,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 60,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 57
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 55,
+        "Bio": 58
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 50,
+        "Chem": 58,
+        "Bio": 53
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": 51
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 59
+      },
+      "final": {
+        "Math": null,
+        "Eng": 52,
+        "Phy": 50,
+        "Chem": 57,
+        "Bio": 54
+      }
+    },
+    {
+      "admnNo": 2075,
+      "name": "Yamini Malik",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 57,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 55,
+        "Eng": 50,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 56,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 55,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 57,
+        "Eng": 57,
+        "Phy": 60,
+        "Chem": 58,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 51,
+        "Eng": 56,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 55,
+        "Eng": 58,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": null
+      },
+      "final": {
+        "Math": 58,
+        "Eng": 52,
+        "Phy": 50,
+        "Chem": 57,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2076,
+      "name": "Sarthak Joshi",
+      "gender": "M",
+      "age": 18,
+      "tenthPercent": 58,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 50,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 52
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 55,
+        "Bio": 58
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 50,
+        "Chem": 58,
+        "Bio": 59
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 51,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": 58
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 52,
+        "Phy": 56,
+        "Chem": 51,
+        "Bio": 53
+      },
+      "final": {
+        "Math": null,
+        "Eng": 51,
+        "Phy": 50,
+        "Chem": 52,
+        "Bio": 51
+      }
+    },
+    {
+      "admnNo": 2077,
+      "name": "Yash Choudhary",
+      "gender": "M",
+      "age": 19,
+      "tenthPercent": 54,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 56,
+        "Eng": 53,
+        "Phy": 57,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 60,
+        "Eng": 55,
+        "Phy": 53,
+        "Chem": 57,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 57,
+        "Eng": 57,
+        "Phy": 52,
+        "Chem": 58,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 51,
+        "Eng": 57,
+        "Phy": 51,
+        "Chem": 56,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 55,
+        "Eng": 57,
+        "Phy": 51,
+        "Chem": 51,
+        "Bio": null
+      },
+      "final": {
+        "Math": 56,
+        "Eng": 54,
+        "Phy": 55,
+        "Chem": 57,
+        "Bio": null
+      }
+    },
+    {
+      "admnNo": 2078,
+      "name": "Varsha Chauhan",
+      "gender": "F",
+      "age": 17,
+      "tenthPercent": 56,
+      "standard": "XII",
+      "isOptedMaths": false,
+      "isOptedBio": true,
+      "utOne": {
+        "Math": null,
+        "Eng": 50,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 56
+      },
+      "utTwo": {
+        "Math": null,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 55,
+        "Bio": 53
+      },
+      "halfYearly": {
+        "Math": null,
+        "Eng": 57,
+        "Phy": 50,
+        "Chem": 58,
+        "Bio": 52
+      },
+      "utThree": {
+        "Math": null,
+        "Eng": 54,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": 58
+      },
+      "utFour": {
+        "Math": null,
+        "Eng": 53,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": 51
+      },
+      "final": {
+        "Math": null,
+        "Eng": 53,
+        "Phy": 58,
+        "Chem": 57,
+        "Bio": 52
+      }
+    },
+    {
+      "admnNo": 2079,
+      "name": "Tanvi Ahuja",
+      "gender": "F",
+      "age": 18,
+      "tenthPercent": 59,
+      "standard": "XII",
+      "isOptedMaths": true,
+      "isOptedBio": false,
+      "utOne": {
+        "Math": 55,
+        "Eng": 60,
+        "Phy": 66,
+        "Chem": 62,
+        "Bio": null
+      },
+      "utTwo": {
+        "Math": 57,
+        "Eng": 55,
+        "Phy": 52,
+        "Chem": 55,
+        "Bio": null
+      },
+      "halfYearly": {
+        "Math": 54,
+        "Eng": 57,
+        "Phy": 50,
+        "Chem": 58,
+        "Bio": null
+      },
+      "utThree": {
+        "Math": 52,
+        "Eng": 58,
+        "Phy": 51,
+        "Chem": 53,
+        "Bio": null
+      },
+      "utFour": {
+        "Math": 51,
+        "Eng": 52,
+        "Phy": 56,
+        "Chem": 52,
+        "Bio": null
+      },
+      "final": {
+        "Math": 58,
+        "Eng": 59,
+        "Phy": 50,
+        "Chem": 57,
+        "Bio": null
+      }
+    }
+  ]
+}

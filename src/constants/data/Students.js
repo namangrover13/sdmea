@@ -9,16 +9,16 @@
         isOptedMaths: true,
         isOptedBio: false,
         marks: {
-            utOne: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+            utOne: {'Maths': 76, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
             utTwo: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
-            utThree: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
+            utThree: {'Maths': 76, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
             utFour: {'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
             halfYearly:{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
             finalYearly :{'Maths': 96, 'Eng': 90, 'Phy': 96, 'Chem': 92, 'Bio': null},
         }
     },
     {
-        id:2002,
+  admnNo: 2002,
         name: 'Rahul Sharma',
         gender: 'M',
         age: 18,
