@@ -163,13 +163,11 @@ const Modify = ({
           >
             <Tab label="Class 11" value="1" {...a11yProps(1)}/>
             <Tab label="Class 12" value="2" {...a11yProps(2)} />
-            {/* <Tab style={{fontWeight: 700, fontSize: 18, fontFamily: 'Mulish'}} label="Item Three" value="3" {...a11yProps(3)} /> */}
           </Tabs>
         </div>
         <div style={{width: '80%', }}>
         <TabPanel value="1"><StudentsTable data={eleventhStudents} /></TabPanel>
         <TabPanel value="2"><StudentsTable data={twelfthStudents} /></TabPanel>
-        {/* <TabPanel value="3">Item Three</TabPanel> */}
         </div>
       </TabContext>
     </div>

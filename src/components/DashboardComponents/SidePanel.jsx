@@ -39,20 +39,20 @@ const OPTIONS = [
         icon: <Poll />,
         jsx: <Analyse />
     },
-    // {
-    //     link: '',
-    //     label: 'Predict',
-    //     value: 'predict',
-    //     icon: <Timeline />,
-    //     jsx: <Predict />
-    // },
     {
         link: '',
-        label: 'Settings',
-        value: 'settings',
-        icon: <Settings />,
-        jsx: <SettingsScreen />
+        label: 'Evaluate',
+        value: 'predict',
+        icon: <Timeline />,
+        jsx: <Predict />
     },
+    // {
+    //     link: '',
+    //     label: 'Settings',
+    //     value: 'settings',
+    //     icon: <Settings />,
+    //     jsx: <SettingsScreen />
+    // },
 ]
 
 const SidePanel = ({setScreenToRender, setScreenName}) => {
