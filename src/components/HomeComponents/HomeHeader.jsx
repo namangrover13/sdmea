@@ -77,11 +77,11 @@ const HomeHeader = () => {
     return (
         <div className={"global-card-shadow"}>
         <div className={classes.container}>
-            <div className={classes.navItems}>
+            {/* <div className={classes.navItems}>
                 <p className={classes.navItem}>One</p>
                 <p className={classes.navItem}>Two</p>
                 <p className={classes.navItem}>Three</p>
-            </div>
+            </div> */}
             <div className={classes.logo}>
                 <p className={classes.logoTxt}>SDMEA</p>
             </div>

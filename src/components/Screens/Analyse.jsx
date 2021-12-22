@@ -107,9 +107,6 @@ const Analyse = () => {
     const addRemark = (e) => {
         setRemark(e.target.value)
     }
-    const calcPercent = (marks) => {
-
-    }
     return (
         <div className={classes.root}>
             <div className={classes.searchDiv}>
