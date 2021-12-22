@@ -5,6 +5,7 @@ import { Paper, Tab, Table, TableBody, TableCell, TableContainer, TableHead, Tab
 import { TabContext, TabPanel } from '@mui/lab';
 import { connect } from 'react-redux';
 import { getAllStudents } from '../../store/actions/students/get-all-students';
+import { ArrowBack } from '@material-ui/icons';
 
 function a11yProps(index) {
   return {
@@ -15,7 +16,6 @@ function a11yProps(index) {
 const Predict = ({ getAllStudentsData }) => {
   const classes = useStyles();
   const [value, setValue] = useState('1');
-  const [dataToShow, setDataToShow] = useState();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -46,15 +46,6 @@ const Predict = ({ getAllStudentsData }) => {
     percent = sum / marks.length;
     return percent
   }
-  const topTenPerformers = (data) => {
-    const topTen = []
-    data.forEach((student) => {
-      if (calcPercent(student.marks.utOne, student.marks.utTwo, student.marks.halfYearly, student.marks.utThree, student.marks.utFour, student.marks.finalYearly) > 83)
-        topTen.push(student);
-    })
-    return topTen;
-  }
-  const topTen = topTenPerformers(getAllStudentsData.data)
   const eleventhStudents = createStudentsArray(getAllStudentsData.data, 'XI')
   const twelfthStudents = createStudentsArray(getAllStudentsData.data, 'XII')
   const sortAccordingToPercent = (data) => {
@@ -74,8 +65,10 @@ const Predict = ({ getAllStudentsData }) => {
   }
   const eleventhSorted = sortAccordingToPercent(eleventhStudents);
   const twelfthSorted = sortAccordingToPercent(twelfthStudents);
-  const StudentsTable = ({ data }) => {
+  const StudentsTable = ({ data, handleClickBack }) => {
     return (
+      <>
+      <div style={{display: 'flex', alignItems: 'center', margin: '10px 0', cursor: 'pointer'}} onClick={handleClickBack}><ArrowBack /> Back</div>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 300 }} aria-label="simple table">
           <TableHead>
@@ -108,6 +101,7 @@ const Predict = ({ getAllStudentsData }) => {
           </TableBody>
         </Table>
       </TableContainer>
+      </>
     );
   }
 
@@ -117,6 +111,13 @@ const Predict = ({ getAllStudentsData }) => {
     const [isShowTopTenLosers, setIsShowTopTenLosers] = useState(false);
     const [isShowConstant, setIsShowConstant] = useState(false);
     const [isShowScholars, setIsShowScholars] = useState(false);
+    const handleClickBack = () => {
+      setIsShowTopTen(false);
+      setIsShowTopTenImprovers(false);
+      setIsShowTopTenLosers(false);
+      setIsShowConstant(false);
+      setIsShowScholars(false);
+    }
     const sortAccordingToPercentChange = (data) => {
       const filtered = data.filter((student) => student.tenthPercent < student.percent)
       filtered.sort((a,b) => {
@@ -136,11 +137,11 @@ const Predict = ({ getAllStudentsData }) => {
         <Button onClick={()=>setIsShowConstant(true)} className={classes.btn}>Constant Performers</Button>
         <Button onClick={()=>setIsShowScholars(true)} className={classes.btn}>Scholarship Candidates</Button>
       </div>}
-      {isShowTopTen && <StudentsTable data={students.slice(0,10)} />}
-      {isShowTopTenLosers && <StudentsTable data={students.slice(-10,-1)} />}
-      {isShowTopTenImprovers && <StudentsTable data={sortAccordingToPercentChange(students)} />}
-      {isShowConstant && <StudentsTable data={students.filter(student => (student.tenthPercent - student.percent) < 5)} />}
-      {isShowScholars && <StudentsTable data={students.filter(student => student.percent > 80 && student.tenthPercent > 75)} />}
+      {isShowTopTen && <StudentsTable data={students.slice(0,10)} handleClickBack={handleClickBack} />}
+      {isShowTopTenLosers && <StudentsTable data={students.slice(-10,-1)} handleClickBack={handleClickBack} />}
+      {isShowTopTenImprovers && <StudentsTable data={sortAccordingToPercentChange(students)} handleClickBack={handleClickBack} />}
+      {isShowConstant && <StudentsTable data={students.filter(student => (student.tenthPercent - student.percent) < 5)} handleClickBack={handleClickBack} />}
+      {isShowScholars && <StudentsTable data={students.filter(student => student.percent > 80 && student.tenthPercent > 75)} handleClickBack={handleClickBack} />}
       </>
     )
   }
