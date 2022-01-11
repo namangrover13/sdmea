@@ -8,7 +8,8 @@ import HighchartsReact from 'highcharts-react-official'
 import Highcharts from 'highcharts'
 import LinearBuffer from '../GlobalComponents/LinearLoader';
 import ReactToPrint from "react-to-print";
-
+import {useHistory} from 'react-router-dom';
+import emailjs from '@emailjs/browser';
 function a11yProps(index) {
     return {
         id: `vertical-tab-${index}`,
@@ -25,6 +26,8 @@ const Analyse = () => {
     const [isShowLoader, setIsShowLoader] = useState(false);
     const [isShowReview, setIsShowReview] = useState(false);
     const [remark, setRemark] = useState("")
+    const [email,setEmail] = useState('');
+    const redirect = useHistory();
     let componentRef = useRef();
     useEffect(() => {
         setStudents(STUDENTS);
@@ -44,6 +47,7 @@ const Analyse = () => {
         // eslint-disable-next-line eqeqeq
         const result = students.find(data => data.admnNo == admn)
         setDataToShow(result);
+        console.log(dataToShow)
     }
     const getMarksArrayForSubject = (marksObject, subjectName) => {
         var marksArray = []
@@ -96,6 +100,34 @@ const Analyse = () => {
             </div>
         )
     }
+ 
+    function sendMail() {
+        const replyTo = 'sdmea@sdmea.com';
+       const  details = {
+        "name":dataToShow.name,   
+        "email":dataToShow.tenthPercent,
+    "reply_to":replyTo,
+    "score" : 20,
+    };
+    
+        emailjs
+          .send(
+            "service_6aed515",
+            "template_xf3fx9k",
+            details,
+            "user_mjBe7qTYY8dr33SPkrIUE"
+          )
+          .then(
+            response => {
+              redirect.push("/dashboard");
+             
+            },
+            err => {
+            console.error(err);
+            
+            }
+          );
+      }
     const handleAnalyseClick = () => {
         setIsShowLoader(true);
         setTimeout(() => {
@@ -191,7 +223,13 @@ const Analyse = () => {
                                         <Tab label="English" value="2" {...a11yProps(2)} />
                                         <Tab label="Physics" value="3" {...a11yProps(3)} />
                                         <Tab label="Chemistry" value="4" {...a11yProps(4)} />
+                                    
                                     </Tabs>
+                                
+                                </div>
+                                <div style={{textAlign:'center' ,margin: 10}}>
+                                    <TextField  style={{width:300,margin:10}} type='email' placeHolder='student@email.com' onChange={(e)=>(setEmail(e.target.value))}></TextField>
+                                    <Button onClick={()=>sendMail()} variant='contained' color='primary'>SEND REPORT</Button>
                                 </div>
                                 <div style={{ width: '80%', }}>
                                     <TabPanel value="1"><div style={{ display: 'flex' }}>{dataToShow.isOptedBio && createChart('Bio')} {dataToShow.isOptedMaths && createChart('Maths')}</div></TabPanel>
