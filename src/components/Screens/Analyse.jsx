@@ -1,12 +1,13 @@
 import { Button, OutlinedInput, TextField } from '@material-ui/core';
 import { Tab, Tabs } from '@material-ui/core';
 import { TabContext, TabPanel } from '@mui/lab';
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { useStyles } from './css/Analyse.css'
 import { STUDENTS } from '../../constants/data/Students';
 import HighchartsReact from 'highcharts-react-official'
 import Highcharts from 'highcharts'
 import LinearBuffer from '../GlobalComponents/LinearLoader';
+import ReactToPrint from "react-to-print";
 
 function a11yProps(index) {
     return {
@@ -24,6 +25,7 @@ const Analyse = () => {
     const [isShowLoader, setIsShowLoader] = useState(false);
     const [isShowReview, setIsShowReview] = useState(false);
     const [remark, setRemark] = useState("")
+    let componentRef = useRef();
     useEffect(() => {
         setStudents(STUDENTS);
     }, [])
@@ -84,9 +86,9 @@ const Analyse = () => {
             }
         }
     }
-    const createChart = (subject) => {
+    const createChart = (subject, width = '45%') => {
         return (
-            <div className={classes.chart}>
+            <div className={classes.chart} style={{width: width}} >
                 <HighchartsReact
                     highcharts={Highcharts}
                     options={createOptions(subject)}
@@ -106,6 +108,35 @@ const Analyse = () => {
     }
     const addRemark = (e) => {
         setRemark(e.target.value)
+    }
+    const Printable = () => {
+        return (
+            <>
+            <div className={classes.studentDetailsContainer}>
+                <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Name: </h2><span className={classes.detail}>{dataToShow.name}</span>
+                </div>
+                <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Class: </h2><span className={classes.detail}>{dataToShow.standard}</span>
+                </div>
+                <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Age: </h2><span className={classes.detail}>{dataToShow.age}</span>
+                </div>
+                <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Gender: </h2><span className={classes.detail}>{dataToShow.gender === 'M' ? "Male" : "Female"}</span>
+                </div>
+                <div className={classes.detailContainer}>
+                    <h2 className={classes.detailsTxt}>Percentage in class 10: </h2><span className={classes.detail}>{dataToShow.tenthPercent}%</span>
+                </div>
+            </div>
+            <div>
+            <div style={{ display: 'flex' }}>{dataToShow.isOptedBio && createChart('Bio', '100%')} {dataToShow.isOptedMaths && createChart('Maths', '100%')}</div>
+            {createChart('Eng', '100%')}
+            {createChart('Phy', '100%')}
+            {createChart('Chem', '100%')}
+            </div>
+            </>
+        )
     }
     return (
         <div className={classes.root}>
@@ -169,6 +200,16 @@ const Analyse = () => {
                                     <TabPanel value="4">{createChart('Chem')}</TabPanel>
                                 </div>
                             </TabContext>
+                            <div style={{ display: "none" }}>
+                                <div ref={(el) => (componentRef = el)}>
+                                <Printable />
+                                </div>
+                            </div>
+                            <ReactToPrint
+                                trigger={() => <Button className={classes.btn}>Generate Report</Button>}
+                                content={() => componentRef}
+                            />
+                            
                         </div>}
                         {!isShowReview && <Button onClick={handleShowRemark} className={classes.btn}>Add Remarks</Button>}
                         {isShowReview && <div>
